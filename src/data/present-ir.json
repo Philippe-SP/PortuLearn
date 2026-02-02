@@ -1,0 +1,39 @@
+{
+  "id": "pres-ir-01",
+  "title": "Le Présent des verbes en -IR",
+  "category": "IR",
+  "theory": {
+    "description": "Pour les verbes en -IR, les terminaisons changent légèrement par rapport aux groupes -AR et -ER.",
+    "rules": [
+      { "pronoun": "Eu", "suffix": "-o", "example": "abro" },
+      { "pronoun": "Tu", "suffix": "-es", "example": "abres" },
+      { "pronoun": "Ele / Ela / Você", "suffix": "-e", "example": "abre" },
+      { "pronoun": "Nós", "suffix": "-imos", "example": "abrimos" },
+      { "pronoun": "Vós", "suffix": "-is", "example": "abris" },
+      { "pronoun": "Eles / Elas / Vocês", "suffix": "-em", "example": "abrem" }
+    ]
+  },
+  "exercices": [
+    {
+      "id": "ir-01",
+      "title": "Eu ___ (abrir) a janela.",
+      "category": "Conjugaison",
+      "options": ["abre", "abro", "abrimos", "abrem"],
+      "correctAnswer": "abro"
+    },
+    {
+      "id": "ir-02",
+      "title": "Eles ___ (partir) amanhã.",
+      "category": "Conjugaison",
+      "options": ["partimos", "partes", "partem", "partis"],
+      "correctAnswer": "partem"
+    },
+    {
+      "id": "ir-03",
+      "title": "Nós ___ (dividir) a conta.",
+      "category": "Conjugaison",
+      "options": ["dividimos", "dividis", "dividem", "divide"],
+      "correctAnswer": "dividimos"
+    }
+  ]
+}

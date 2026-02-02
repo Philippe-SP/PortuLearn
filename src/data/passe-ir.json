@@ -1,0 +1,39 @@
+{
+  "id": "pas-ir-01",
+  "title": "Le Passé (-IR)",
+  "category": "IR",
+  "theory": {
+    "description": "Les verbes en -IR au passé ressemblent beaucoup aux verbes en -ER sur certaines terminaisons.",
+    "rules": [
+      { "pronoun": "Eu", "suffix": "-i", "example": "decidi" },
+      { "pronoun": "Tu", "suffix": "-iste", "example": "decidiste" },
+      { "pronoun": "Ele / Ela / Você", "suffix": "-iu", "example": "decidiu" },
+      { "pronoun": "Nós", "suffix": "-imos", "example": "decidimos" },
+      { "pronoun": "Vós", "suffix": "-istes", "example": "decidistes" },
+      { "pronoun": "Eles / Elas / Vocês", "suffix": "-iram", "example": "decidiram" }
+    ]
+  },
+  "exercices": [
+    {
+      "id": "pir-01",
+      "title": "Nós ___ (decidir) ir ao cinema.",
+      "category": "Conjugaison",
+      "options": ["decidiu", "decidimos", "decidiste", "decidiram"],
+      "correctAnswer": "decidimos"
+    },
+    {
+      "id": "pir-02",
+      "title": "Eu ___ (sair) de casa às oito.",
+      "category": "Conjugaison",
+      "options": ["saiu", "saímos", "sai", "saíram"],
+      "correctAnswer": "sai"
+    },
+    {
+      "id": "pir-03",
+      "title": "Tu ___ (ouvir) a música?",
+      "category": "Conjugaison",
+      "options": ["ouviu", "ouvi", "ouviste", "ouviram"],
+      "correctAnswer": "ouviste"
+    }
+  ]
+}

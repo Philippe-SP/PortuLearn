@@ -1,0 +1,39 @@
+{
+  "id": "pas-er-01",
+  "title": "Le Passé (-ER)",
+  "category": "ER",
+  "theory": {
+    "description": "Au passé, les verbes en -ER ont des terminaisons spécifiques, notamment le 'e' qui devient souvent 'i'.",
+    "rules": [
+      { "pronoun": "Eu", "suffix": "-i", "example": "bebi" },
+      { "pronoun": "Tu", "suffix": "-este", "example": "bebeste" },
+      { "pronoun": "Ele / Ela / Você", "suffix": "-eu", "example": "bebeu" },
+      { "pronoun": "Nós", "suffix": "-emos", "example": "bebeu" },
+      { "pronoun": "Vós", "suffix": "-estes", "example": "bebestes" },
+      { "pronoun": "Eles / Elas / Vocês", "suffix": "-eram", "example": "beberam" }
+    ]
+  },
+  "exercices": [
+    {
+      "id": "per-01",
+      "title": "Ele ___ (beber) um café.",
+      "category": "Conjugaison",
+      "options": ["bebi", "bebeu", "beberam", "bebeste"],
+      "correctAnswer": "bebeu"
+    },
+    {
+      "id": "per-02",
+      "title": "Eu ___ (correr) cinco quilómetros.",
+      "category": "Conjugaison",
+      "options": ["corri", "correu", "correram", "correste"],
+      "correctAnswer": "corri"
+    },
+    {
+      "id": "per-03",
+      "title": "Vocês ___ (escrever) uma carta.",
+      "category": "Conjugaison",
+      "options": ["escreveu", "escrevemos", "escreveram", "escreveste"],
+      "correctAnswer": "escreveram"
+    }
+  ]
+}

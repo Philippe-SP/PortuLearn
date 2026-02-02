@@ -1,0 +1,39 @@
+{
+  "id": "pas-ar-01",
+  "title": "Le Passé (-AR)",
+  "category": "AR",
+  "theory": {
+    "description": "Le Pretérito Perfeito Simples exprime une action passée et terminée.",
+    "rules": [
+      { "pronoun": "Eu", "suffix": "-ei", "example": "comprei" },
+      { "pronoun": "Tu", "suffix": "-aste", "example": "compraste" },
+      { "pronoun": "Ele / Ela / Você", "suffix": "-ou", "example": "comprou" },
+      { "pronoun": "Nós", "suffix": "-ámos", "example": "comprámos" },
+      { "pronoun": "Vós", "suffix": "-astes", "example": "comprastes" },
+      { "pronoun": "Eles / Elas / Vocês", "suffix": "-aram", "example": "compraram" }
+    ]
+  },
+  "exercices": [
+    {
+      "id": "par-01",
+      "title": "Ontem, eu ___ (comprar) um carro.",
+      "category": "Conjugaison",
+      "options": ["comprou", "compraste", "comprei", "compraram"],
+      "correctAnswer": "comprei"
+    },
+    {
+      "id": "par-02",
+      "title": "Tu ___ (almoçar) muito tarde.",
+      "category": "Conjugaison",
+      "options": ["almoçaste", "almoçou", "almoçámos", "almoçaram"],
+      "correctAnswer": "almoçaste"
+    },
+    {
+      "id": "par-03",
+      "title": "Nós ___ (cozinhar) bacalhau.",
+      "category": "Conjugaison",
+      "options": ["cozinharam", "cozinhou", "cozinhámos", "cozinhaste"],
+      "correctAnswer": "cozinhámos"
+    }
+  ]
+}

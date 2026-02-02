@@ -1,0 +1,39 @@
+{
+  "id": "pres-ar-01",
+  "title": "Le Présent des verbes en -AR",
+  "category": "AR",
+  "theory": {
+    "description": "Les verbes réguliers en -AR sont la base du portugais. Voici les terminaisons à retenir.",
+    "rules": [
+      { "pronoun": "Eu", "suffix": "-o", "example": "falo" },
+      { "pronoun": "Tu", "suffix": "-as", "example": "falas" },
+      { "pronoun": "Ele / Ela / Você", "suffix": "-a", "example": "fala" },
+      { "pronoun": "Nós", "suffix": "-amos", "example": "falamos" },
+      { "pronoun": "Vós", "suffix": "-ais", "example": "falais" },
+      { "pronoun": "Eles / Elas / Vocês", "suffix": "-am", "example": "falam" }
+    ]
+  },
+  "exercices": [
+    {
+      "id": "ex-01",
+      "title": "Eu ___ (comprar) pão na padaria.",
+      "category": "Conjugaison",
+      "options": ["compras", "compramos", "compro", "compra"],
+      "correctAnswer": "compro"
+    },
+    {
+      "id": "ex-02",
+      "title": "Eles ___ (morar) em Lisboa.",
+      "category": "Conjugaison",
+      "options": ["moras", "moram", "mora", "morais"],
+      "correctAnswer": "moram"
+    },
+    {
+      "id": "ex-03",
+      "title": "Nós ___ (estudar) português.",
+      "category": "Conjugaison",
+      "options": ["estudam", "estudas", "estuda", "estudamos"],
+      "correctAnswer": "estudamos"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "pres-er-01",
+  "title": "Le Présent des verbes en -ER",
+  "category": "ER",
+  "theory": {
+    "description": "Les verbes en -ER (2ème groupe) changent leur terminaison. Attention à la ressemblance avec le groupe -AR !",
+    "rules": [
+      { "pronoun": "Eu", "suffix": "-o", "example": "como" },
+      { "pronoun": "Tu", "suffix": "-es", "example": "comes" },
+      { "pronoun": "Ele / Ela / Você", "suffix": "-e", "example": "come" },
+      { "pronoun": "Nós", "suffix": "-emos", "example": "comemos" },
+      { "pronoun": "Vós", "suffix": "-eis", "example": "comeis" },
+      { "pronoun": "Eles / Elas / Vocês", "suffix": "-em", "example": "comem" }
+    ]
+  },
+  "exercices": [
+    {
+      "id": "er-01",
+      "title": "Tu ___ (beber) muita água.",
+      "category": "Conjugaison",
+      "options": ["bebes", "bebe", "bebo", "bebem"],
+      "correctAnswer": "bebes"
+    },
+    {
+      "id": "er-02",
+      "title": "Nós ___ (comer) uma maçã.",
+      "category": "Conjugaison",
+      "options": ["come", "comemos", "comem", "comes"],
+      "correctAnswer": "comemos"
+    },
+    {
+      "id": "er-03",
+      "title": "Eu ___ (correr) no parque.",
+      "category": "Conjugaison",
+      "options": ["corres", "correm", "corro", "corre"],
+      "correctAnswer": "corro"
+    }
+  ]
+}
