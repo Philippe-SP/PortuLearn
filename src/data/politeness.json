@@ -1,0 +1,48 @@
+{
+  "id": "vocab-pol-01",
+  "title": "Cortesia e Educação",
+  "category": "VOCAB",
+  "theory": {
+    "description": "Les mots essentiels pour échanger avec respect. Note : pour 'Merci', un homme dit 'Obrigado' et une femme 'Obrigada'.",
+    "vocabulary": [
+      { "word": "Faz favor / Por favor", "translation": "S'il vous plaît" },
+      { "word": "Obrigado (m) / Obrigada (f)", "translation": "Merci" },
+      { "word": "De nada", "translation": "De rien" },
+      { "word": "Bom dia", "translation": "Bonjour (le matin)" },
+      { "word": "Boa tarde", "translation": "Bonjour (l'après-midi)" },
+      { "word": "Boa noite", "translation": "Bonsoir / Bonne nuit" },
+      { "word": "Desculpe", "translation": "Pardon / Excusez-moi" },
+      { "word": "Com licença", "translation": "S'il vous plaît (pour passer ou s'en aller)" }
+    ]
+  },
+  "exercices": [
+    {
+      "id": "pol-01",
+      "title": "Une femme doit dire pour remercier :",
+      "category": "Vocabulaire",
+      "options": ["Obrigado", "Obrigada", "Faz favor", "De nada"],
+      "correctAnswer": "Obrigada"
+    },
+    {
+      "id": "pol-02",
+      "title": "Comment dit-on 'S'il vous plaît' (comme à Braga) ?",
+      "category": "Vocabulaire",
+      "options": ["Com licença", "Faz favor", "Desculpe", "Boa tarde"],
+      "correctAnswer": "Faz favor"
+    },
+    {
+      "id": "pol-03",
+      "title": "À 16h, pour saluer quelqu'un, on dit :",
+      "category": "Vocabulaire",
+      "options": ["Bom dia", "Boa noite", "Boa tarde", "Obrigado"],
+      "correctAnswer": "Boa tarde"
+    },
+    {
+      "id": "pol-04",
+      "title": "Pour s'excuser d'avoir bousculé quelqu'un :",
+      "category": "Vocabulaire",
+      "options": ["Com licença", "Desculpe", "De nada", "Bom dia"],
+      "correctAnswer": "Desculpe"
+    }
+  ]
+}

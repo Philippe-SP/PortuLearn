@@ -1,0 +1,44 @@
+{
+  "id": "gram-fut-01",
+  "title": "O Futuro Próximo",
+  "category": "GRAM",
+  "theory": {
+    "description": "On utilise le verbe IR (aller) + l'infinitif du verbe. C'est la façon la plus naturelle de parler de ses projets.",
+    "rules": [
+      { "pronoun": "Eu vou", "suffix": "falar", "example": "Je vais parler" },
+      { "pronoun": "Tu vais", "suffix": "comer", "example": "Tu vas manger" },
+      { "pronoun": "Ele/Ela vai", "suffix": "estudar", "example": "Il/Elle va étudier" },
+      { "pronoun": "Nós vamos", "suffix": "dormir", "example": "Nous allons dormir" }
+    ]
+  },
+  "exercices": [
+    {
+      "id": "fut-01",
+      "title": "Amanhã, eu ___ (étudier) muito.",
+      "category": "Conjugaison",
+      "options": ["vou estudar", "vai estudar", "vamos estudar", "vais estudar"],
+      "correctAnswer": "vou estudar"
+    },
+    {
+      "id": "fut-02",
+      "title": "Nós ___ (manger) no restaurante.",
+      "category": "Conjugaison",
+      "options": ["vou comer", "vamos comer", "vão comer", "vai comer"],
+      "correctAnswer": "vamos comer"
+    },
+    {
+      "id": "fut-03",
+      "title": "Comment dit-on 'Elle va partir' ?",
+      "category": "Conjugaison",
+      "options": ["Ela vai partir", "Ela vou partir", "Ela vais partir", "Ela vão partir"],
+      "correctAnswer": "Ela vai partir"
+    },
+    {
+      "id": "fut-04",
+      "title": "Tu ___ (dormir) agora ?",
+      "category": "Conjugaison",
+      "options": ["vou dormir", "vais dormir", "vai dormir", "vamos dormir"],
+      "correctAnswer": "vais dormir"
+    }
+  ]
+}

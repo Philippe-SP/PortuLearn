@@ -1,0 +1,40 @@
+{
+  "id": "vocab-emo-01",
+  "title": "Emoções e Estados",
+  "category": "VOCAB",
+  "theory": {
+    "description": "Pour exprimer comment on se sent. S'utilise souvent avec le verbe 'Estar' (état temporaire).",
+    "vocabulary": [
+      { "word": "Feliz", "translation": "Heureux" },
+      { "word": "Cansado / Cansada", "translation": "Fatigué(e)" },
+      { "word": "Fome", "translation": "Faim" },
+      { "word": "Sede", "translation": "Soif" },
+      { "word": "Triste", "translation": "Triste" },
+      { "word": "Doente", "translation": "Malade" },
+      { "word": "Bem / Mal", "translation": "Bien / Mal" }
+    ]
+  },
+  "exercices": [
+    {
+      "id": "emo-01",
+      "title": "Eu quero comer, eu tenho ___.",
+      "category": "Vocabulaire",
+      "options": ["sede", "fome", "feliz", "doente"],
+      "correctAnswer": "fome"
+    },
+    {
+      "id": "emo-02",
+      "title": "Depois de trabalhar muito, eu estou ___.",
+      "category": "Vocabulaire",
+      "options": ["cansado", "feliz", "triste", "sede"],
+      "correctAnswer": "cansado"
+    },
+    {
+      "id": "emo-03",
+      "title": "O contrário de 'Bem' é ___.",
+      "category": "Vocabulaire",
+      "options": ["Feliz", "Mal", "Triste", "Doente"],
+      "correctAnswer": "Mal"
+    }
+  ]
+}

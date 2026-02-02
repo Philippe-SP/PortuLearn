@@ -1,0 +1,40 @@
+{
+  "id": "vocab-obj-01",
+  "title": "Objetos do Dia a Dia",
+  "category": "VOCAB",
+  "theory": {
+    "description": "Les objets que l'on cherche toujours partout ! Utile pour demander : 'Onde está... ?' (Où est... ?)",
+    "vocabulary": [
+      { "word": "O telemóvel", "translation": "Le téléphone portable" },
+      { "word": "A chave", "translation": "La clé" },
+      { "word": "A carteira", "translation": "Le portefeuille" },
+      { "word": "O computador", "translation": "L'ordinateur" },
+      { "word": "A mochila", "translation": "Le sac à dos" },
+      { "word": "O carro", "translation": "La voiture" },
+      { "word": "Os óculos", "translation": "Les lunettes" }
+    ]
+  },
+  "exercices": [
+    {
+      "id": "obj-01",
+      "title": "O que é 'A chave' ?",
+      "category": "Vocabulaire",
+      "options": ["La voiture", "La clé", "Le sac", "Le téléphone"],
+      "correctAnswer": "La clé"
+    },
+    {
+      "id": "obj-02",
+      "title": "Comment dit-on 'Le téléphone' au Portugal ?",
+      "category": "Vocabulaire",
+      "options": ["O computador", "O telemóvel", "O carro", "A mochila"],
+      "correctAnswer": "O telemóvel"
+    },
+    {
+      "id": "obj-03",
+      "title": "Se eu não vejo bem, eu preciso de ___.",
+      "category": "Vocabulaire",
+      "options": ["uma chave", "uma carteira", "óculos", "um carro"],
+      "correctAnswer": "óculos"
+    }
+  ]
+}

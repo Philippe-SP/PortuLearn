@@ -1,0 +1,41 @@
+{
+  "id": "vocab-anim-02",
+  "title": "Os Animais - Nível 2",
+  "category": "VOCAB",
+  "theory": {
+    "description": "On monte d'un cran avec des animaux plus spécifiques. Regarde bien les terminaisons.",
+    "vocabulary": [
+      { "word": "O coelho", "translation": "Le lapin" },
+      { "word": "A tartaruga", "translation": "La tortue" },
+      { "word": "O macaco", "translation": "Le singe" },
+      { "word": "O leão", "translation": "Le lion" },
+      { "word": "O urso", "translation": "L'ours" },
+      { "word": "A aranha", "translation": "L'araignée" },
+      { "word": "A abelha", "translation": "L'abeille" },
+      { "word": "O rato", "translation": "La souris / Le rat" }
+    ]
+  },
+  "exercices": [
+    {
+      "id": "anim2-01",
+      "title": "Comment dit-on 'Le lapin' ?",
+      "category": "Vocabulaire",
+      "options": ["O rato", "O coelho", "O urso", "O leão"],
+      "correctAnswer": "O coelho"
+    },
+    {
+      "id": "anim2-02",
+      "title": "A 'tartaruga' est un animal :",
+      "category": "Vocabulaire",
+      "options": ["Très rapide", "Très lent", "Qui vole", "Qui chante"],
+      "correctAnswer": "Très lent"
+    },
+    {
+      "id": "anim2-03",
+      "title": "O que é 'A abelha' ?",
+      "category": "Vocabulaire",
+      "options": ["L'araignée", "L'abeille", "Le singe", "L'ours"],
+      "correctAnswer": "L'abeille"
+    }
+  ]
+}

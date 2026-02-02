@@ -1,0 +1,41 @@
+{
+  "id": "vocab-food-01",
+  "title": "Comida e Bebida",
+  "category": "VOCAB",
+  "theory": {
+    "description": "Les essentiels de la table portugaise. Pour demander un verre d'eau: 'Um copo de água, faz favor'.",
+    "vocabulary": [
+      { "word": "O pão", "translation": "Le pain" },
+      { "word": "A água", "translation": "L'eau" },
+      { "word": "O café", "translation": "Le café" },
+      { "word": "O leite", "translation": "Le lait" },
+      { "word": "O arroz", "translation": "Le riz" },
+      { "word": "A carne", "translation": "La viande" },
+      { "word": "O peixe", "translation": "Le poisson" },
+      { "word": "A fruta", "translation": "Le fruit" }
+    ]
+  },
+  "exercices": [
+    {
+      "id": "food-01",
+      "title": "Comment dit-on 'Le pain' ?",
+      "category": "Vocabulaire",
+      "options": ["O arroz", "O pão", "O leite", "A carne"],
+      "correctAnswer": "O pão"
+    },
+    {
+      "id": "food-02",
+      "title": "No restaurante, eu quero beber ___.",
+      "category": "Vocabulaire",
+      "options": ["a água", "a carne", "o peixe", "o pão"],
+      "correctAnswer": "a água"
+    },
+    {
+      "id": "food-03",
+      "title": "O bacalhau (la morue) é um ___.",
+      "category": "Vocabulaire",
+      "options": ["leite", "peixe", "fruta", "arroz"],
+      "correctAnswer": "peixe"
+    }
+  ]
+}
