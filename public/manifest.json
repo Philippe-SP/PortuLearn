@@ -1,0 +1,16 @@
+{
+  "short_name": "PortuLearn",
+  "name": "PortuLearn - Apprendre le Portugais",
+  "icons": [
+    {
+      "src": "Logo_portulearn.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#006600",
+  "background_color": "#ffffff"
+}
