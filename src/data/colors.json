@@ -1,0 +1,44 @@
+{
+  "id": "vocab-colors-01",
+  "title": "As Cores (Les Couleurs)",
+  "category": "VOCAB",
+  "theory": {
+    "description": "Apprends les couleurs de base. Attention, au Portugal 'rouge' se dit 'vermelho'.",
+    "vocabulary": [
+      { "word": "Vermelho", "translation": "Rouge" },
+      { "word": "Verde", "translation": "Vert" },
+      { "word": "Azul", "translation": "Bleu" },
+      { "word": "Amarelo", "translation": "Jaune" },
+      { "word": "Preto", "translation": "Noir" },
+      { "word": "Branco", "translation": "Blanc" },
+      { "word": "Cor-de-rosa", "translation": "Rose" },
+      { "word": "Laranja", "translation": "Orange" },
+      { "word": "Cinzento", "translation": "Gris" },
+      { "word": "Roxo", "translation": "Violet" },
+      { "word": "Castanho", "translation": "Marron" }
+    ]
+  },
+  "exercices": [
+    {
+      "id": "col-01",
+      "title": "Como se diz 'Rouge' em português?",
+      "category": "Vocabulaire",
+      "options": ["Verde", "Vermelho", "Azul", "Preto"],
+      "correctAnswer": "Vermelho"
+    },
+    {
+      "id": "col-02",
+      "title": "Qual é a cor do céu (ciel)?",
+      "category": "Vocabulaire",
+      "options": ["Amarelo", "Branco", "Azul", "Roxo"],
+      "correctAnswer": "Azul"
+    },
+    {
+      "id": "col-03",
+      "title": "As nuvens (nuages) antes de chover são ___.",
+      "category": "Vocabulaire",
+      "options": ["Preto", "Cinzento", "Vermelho", "Rosa"],
+      "correctAnswer": "Cinzento"
+    }
+  ]
+}

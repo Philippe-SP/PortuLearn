@@ -1,0 +1,60 @@
+{
+  "id": "vocab-num-01",
+  "title": "Os Números",
+  "category": "VOCAB",
+  "theory": {
+    "description": "Les nombres de base. Attention : 1 et 2 changent si l'objet est féminin (ex: uma vaca, duas vacas).",
+    "vocabulary": [
+      { "word": "Um / Uma", "translation": "1" },
+      { "word": "Dois / Duas", "translation": "2" },
+      { "word": "Três", "translation": "3" },
+      { "word": "Quatro", "translation": "4" },
+      { "word": "Cinco", "translation": "5" },
+      { "word": "Seis", "translation": "6" },
+      { "word": "Sete", "translation": "7" },
+      { "word": "Oito", "translation": "8" },
+      { "word": "Nove", "translation": "9" },
+      { "word": "Dez", "translation": "10" },
+      { "word": "Vinte", "translation": "20" },
+      { "word": "Trinta", "translation": "30" },
+      { "word": "Quarenta", "translation": "40" },
+      { "word": "Cinquenta", "translation": "50" },
+      { "word": "Sessenta", "translation": "60" },
+      { "word": "Setenta", "translation": "70" },
+      { "word": "Oitenta", "translation": "80" },
+      { "word": "Noventa", "translation": "90" },
+      { "word": "Cem", "translation": "100" },
+      { "word": "Mil", "translation": "1000" }
+    ]
+  },
+  "exercices": [
+    {
+      "id": "num-01",
+      "title": "Comment dit-on '20' ?",
+      "category": "Vocabulaire",
+      "options": ["Dez", "Vinte", "Trinta", "Cem"],
+      "correctAnswer": "Vinte"
+    },
+    {
+      "id": "num-02",
+      "title": "Si j'ai 2 vaches (vacas), je dis :",
+      "category": "Vocabulaire",
+      "options": ["Dois vacas", "Duas vacas", "Dez vacas", "Três vacas"],
+      "correctAnswer": "Duas vacas"
+    },
+    {
+      "id": "num-03",
+      "title": "Oitenta correspond à quel nombre ?",
+      "category": "Vocabulaire",
+      "options": ["18", "70", "80", "90"],
+      "correctAnswer": "80"
+    },
+    {
+      "id": "num-04",
+      "title": "Le nombre '1000' se dit :",
+      "category": "Vocabulaire",
+      "options": ["Cem", "Mil", "Milhão", "Dez"],
+      "correctAnswer": "Mil"
+    }
+  ]
+}

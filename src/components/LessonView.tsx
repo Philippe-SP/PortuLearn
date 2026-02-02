@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import type { Lesson } from '../types';
+import ConjugaisonTheory from './ConjugaisonTheory';
+import VocabularyTheory from './VocabularyTheory';
 
 interface LessonViewProps {
   data: Lesson;
@@ -64,27 +66,23 @@ const LessonView: React.FC<LessonViewProps> = ({ data }) => {
 
       {!isQuizMode ? (
         /* --- MODE THÉORIE (inchangé) --- */
-        <div className="space-y-6">
-          <p className="text-gray-600 italic">{data.theory.description}</p>
-          <div className="bg-green-50 rounded-lg p-4 border border-green-100">
-            {/* Header du tableau */}
-            <div className="grid grid-cols-3 font-bold text-gray-700 border-b border-green-200 pb-2 mb-2 text-sm">
-                <span>Pronom</span>
-                <span>Suffixe</span>
-                <span>Exemple</span>
-            </div>
-            {/* Contenu du tableau */}
-            {data.theory.rules.map((rule, idx) => (
-                <div key={idx} className="grid grid-cols-3 py-1 text-sm border-b border-blue-50 last:border-0">
-                <span className="text-gray-500">{rule.pronoun}</span>
-                <span className="font-mono text-gray-700 font-bold">{rule.suffix}</span>
-                <span className="italic text-gray-700">{rule.example}</span>
-                </div>
-            ))}
-          </div>
-          <button 
+        <div className="mt-6">
+          <p className="text-gray-600 italic mb-6 leading-relaxed">
+            {data.theory.description}
+          </p>
+
+          {/* Choix du bon composant */}
+          {data.theory.vocabulary ? (
+            <VocabularyTheory vocabulary={data.theory.vocabulary} />
+          ) : data.theory.rules ? (
+            <ConjugaisonTheory rules={data.theory.rules} />
+          ) : (
+            <p>Erreur : aucune donnée de théorie trouvée.</p>
+          )}
+
+          <button
             onClick={() => setIsQuizMode(true)}
-            className="w-full bg-[#006600] text-white py-3 rounded-xl font-bold hover:bg-green-900 active:scale-95 transition-all"
+            className="w-full mt-8 bg-[#006600] text-white py-4 rounded-2xl font-black text-lg shadow-lg active:scale-95 transition-all"
           >
             Commencer
           </button>

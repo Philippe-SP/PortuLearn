@@ -1,0 +1,48 @@
+{
+  "id": "vocab-anim-01",
+  "title": "Os Animais - Nível 1",
+  "category": "VOCAB",
+  "theory": {
+    "description": "Première approche des animaux domestiques et familiers. Attention aux articles : 'O' (le) ou 'A' (la).",
+    "vocabulary": [
+      { "word": "O cão", "translation": "Le chien" },
+      { "word": "O gato", "translation": "Le chat" },
+      { "word": "O cavalo", "translation": "Le cheval" },
+      { "word": "O pássaro", "translation": "L'oiseau" },
+      { "word": "O peixe", "translation": "Le poisson" },
+      { "word": "A vaca", "translation": "La vache" },
+      { "word": "O porco", "translation": "Le cochon" },
+      { "word": "O galo", "translation": "Le coq" }
+    ]
+  },
+  "exercices": [
+    {
+      "id": "anim-01",
+      "title": "Comment dit-on 'Le chien' ?",
+      "category": "Vocabulaire",
+      "options": ["O gato", "O cão", "O cavalo", "O porco"],
+      "correctAnswer": "O cão"
+    },
+    {
+      "id": "anim-02",
+      "title": "O que é 'O galo' ?",
+      "category": "Vocabulaire",
+      "options": ["Le canard", "Le cochon", "Le coq", "L'oiseau"],
+      "correctAnswer": "Le coq"
+    },
+    {
+      "id": "anim-03",
+      "title": "Qual destes vive na água ?",
+      "category": "Vocabulaire",
+      "options": ["O pássaro", "O peixe", "A vaca", "O cavalo"],
+      "correctAnswer": "O peixe"
+    },
+    {
+      "id": "anim-04",
+      "title": "L'animal qui fait 'Miau' est :",
+      "category": "Vocabulaire",
+      "options": ["O cão", "O gato", "O galo", "O porco"],
+      "correctAnswer": "O gato"
+    }
+  ]
+}

@@ -6,6 +6,9 @@ import presentIrData from './data/present-ir.json';
 import passeArData from './data/passe-ar.json';
 import passeErData from './data/passe-er.json';
 import passeIrData from './data/passe-ir.json';
+import colorsData from './data/colors.json';
+import animals1Data from './data/animals-1.json';
+import numbersData from './data/numbers.json';
 import type { Lesson } from './types';
 
 function App() {
@@ -14,12 +17,15 @@ function App() {
 
   // Differentes lecons
   const allLessons = [
-    { data: presentArData, desc: "Les verbes réguliers en -AR" },
-    { data: presentErData, desc: "Les verbes réguliers en -ER" },
-    { data: presentIrData, desc: "Les verbes réguliers en -IR" },
-    { data: passeArData, desc: "Les verbes réguliers en -AR" },
-    { data: passeErData, desc: "Les verbes réguliers en -ER" },
-    { data: passeIrData, desc: "Les verbes réguliers en -IR" },
+    { data: presentArData, desc: "Conjugaison: Verbes réguliers en -AR" },
+    { data: presentErData, desc: "Conjugaison: Verbes réguliers en -ER" },
+    { data: presentIrData, desc: "Conjugaison: Verbes réguliers en -IR" },
+    { data: passeArData, desc: "Conjugaison: Verbes réguliers en -AR" },
+    { data: passeErData, desc: "Conjugaison: Verbes réguliers en -ER" },
+    { data: passeIrData, desc: "Conjugaison: Verbes réguliers en -IR" },
+    { data: colorsData, desc: "Vocabulaire: Couleurs" },
+    { data: animals1Data, desc: "Vocabulaire: Animaux (N1)" },
+    { data: numbersData, desc: "Vocabulaire: Nombres (1-100)" },
   ];
 
   return (

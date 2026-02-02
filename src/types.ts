@@ -1,24 +1,28 @@
-export interface Conjugaison {
-    pronoun: string, // eu, tu, ele...
-    suffix: string, // -o, -as....
-    example: string // falo, falas....
+export interface Rule {
+  pronoun: string;
+  suffix: string;
+  example: string;
 }
 
-export interface Exercice {
-    id: string,
-    title: string,
-    category: string,
-    options: string[],
-    correctAnswer: string
+export interface VocabItem {
+  word: string;
+  translation: string;
 }
 
 export interface Lesson {
-    id: string,
-    title: string,
-    category: 'AR' | 'ER' | 'IR',
-    theory: {
-        description: string,
-        rules: Conjugaison[]
-    },
-    exercices: Exercice[]
+  id: string;
+  title: string;
+  category: string; // "AR", "ER", "IR", "VOCAB", etc.
+  theory: {
+    description: string;
+    rules?: Rule[];        // Optionnel
+    vocabulary?: VocabItem[]; // Optionnel
+  };
+  exercices: {
+    id: string;
+    title: string;
+    category: string;
+    options: string[];
+    correctAnswer: string;
+  }[];
 }
