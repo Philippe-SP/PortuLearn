@@ -4,6 +4,7 @@ import ConjugaisonTheory from './ConjugaisonTheory';
 import VocabularyTheory from './VocabularyTheory';
 import QuizTypeQCM from './exercices/QuizTypeQCM';
 import QuizTypeInput from './exercices/QuizTypeInput';
+import { speakPortuguese } from '../utils/speak';
 
 interface LessonViewProps {
   data: Lesson;
@@ -49,6 +50,9 @@ const LessonView: React.FC<LessonViewProps> = ({ data }) => {
 
     if (userAnswer === correctAnswer) {
       setFeedback('correct');
+      // Si c'est une phrase à trou, on remplace le ___ par la réponse pour la lecture
+      const fullSentence = currentExercice.title.replace("___", currentExercice.correctAnswer);
+      speakPortuguese(fullSentence);
     } else {
       setFeedback('wrong');
       setErrors(prev => prev + 1);
@@ -110,7 +114,14 @@ const LessonView: React.FC<LessonViewProps> = ({ data }) => {
             <ConjugaisonTheory rules={data.theory.rules || []} />
           )}
           <button
-            onClick={() => setIsQuizMode(true)}
+            onClick={() => {
+              // 1. On débloque l'audio pour iOS/Android avec un son vide
+              const utterance = new SpeechSynthesisUtterance("");
+              window.speechSynthesis.speak(utterance);
+              
+              // 2. On passe au mode Quiz
+              setIsQuizMode(true);
+            }}
             className="w-full mt-8 bg-[#006600] text-white py-4 rounded-2xl font-black text-lg"
           >
             Commencer
