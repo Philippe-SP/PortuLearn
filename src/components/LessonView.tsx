@@ -66,7 +66,16 @@ const LessonView: React.FC<LessonViewProps> = ({ data }) => {
 
   // --- RENDU : FIN DE LEÇON ---
   if (isFinished) {
+    // On récupère la liste des leçons déjà réussies (ou un tableau vide si c'est la première)
+    const completed = JSON.parse(localStorage.getItem('completed_lessons') || '[]');
     const totalQuestions = shuffledExercises.length;
+
+    // On ajoute l'ID actuel s'il n'y est pas déjà
+    if (!completed.includes(data.id)) {
+      completed.push(data.id);
+      localStorage.setItem('completed_lessons', JSON.stringify(completed));
+    }
+
     return (
       <div className="max-w-md mx-auto bg-white shadow-lg rounded-xl p-8 text-center animate-bounce-short">
         <div className="text-6xl mb-4">🇵🇹</div>
