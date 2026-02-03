@@ -2,7 +2,7 @@ import React, { useState, useMemo, useEffect } from 'react';
 import type { Lesson } from '../types';
 import ConjugaisonTheory from './ConjugaisonTheory';
 import VocabularyTheory from './VocabularyTheory';
-import QuizTypeQCM from './exercices/QuizTypeQcm';
+import QuizTypeQCM from './exercices/QuizTypeQCM';
 import QuizTypeInput from './exercices/QuizTypeInput';
 
 interface LessonViewProps {
