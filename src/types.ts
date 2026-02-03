@@ -22,6 +22,7 @@ export interface Lesson {
     id: string;
     title: string;
     category: string;
+    type?: 'qcm' | 'input';
     options: string[];
     correctAnswer: string;
   }[];
