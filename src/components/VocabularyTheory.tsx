@@ -1,4 +1,5 @@
 import React from 'react';
+import { speakPortuguese } from '../utils/speak';
 
 interface VocabItem {
   word: string;
@@ -19,8 +20,16 @@ const VocabularyTheory: React.FC<Props> = ({ vocabulary }) => {
         </div>
         
         {vocabulary.map((item, idx) => (
-          <div key={idx} className="grid grid-cols-2 py-2 border-b border-gray-50 last:border-0 items-center">
-            <span className="font-bold text-[#006600] text-lg">{item.word}</span>
+          <div key={idx} className="grid grid-cols-2 py-2 border-b border-gray-50 items-center">
+            <div className="flex items-center gap-2">
+              <button 
+                onClick={() => speakPortuguese(item.word)}
+                className="text-xs bg-green-100 p-1 rounded-full hover:bg-green-200 transition"
+              >
+                🔊
+              </button>
+              <span className="font-bold text-[#006600] text-lg">{item.word}</span>
+            </div>
             <span className="text-gray-600 italic text-right">{item.translation}</span>
           </div>
         ))}
