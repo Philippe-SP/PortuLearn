@@ -1,13 +1,26 @@
 export const speakPortuguese = (text: string) => {
-  // On arrête les lectures en cours pour éviter les chevauchements
   window.speechSynthesis.cancel();
 
   const utterance = new SpeechSynthesisUtterance(text);
+
+  // Mots-clés qui indiquent que la phrase est une consigne en français
+  const frenchKeywords = [
+    "comment", "qu'est-ce", "quels", "quelle", "choisissez", 
+    "cliquez", "une femme", "un homme", "si j'ai", "le nombre", "le contraire"
+  ];
+
+  const lowerText = text.toLowerCase();
   
-  // On force la langue en Portugais (Portugal)
-  // 'pt-PT' pour le Portugal, 'pt-BR' pour le Brésil
-  utterance.lang = 'pt-PT';
-  utterance.rate = 0.9; // On ralentit légèrement (1 est la vitesse normale)
+  // DÉTECTION DE LA LANGUE
+  // Si le texte commence par un mot-clé français, on utilise la voix FR
+  if (frenchKeywords.some(keyword => lowerText.startsWith(keyword))) {
+    utterance.lang = 'fr-FR';
+  } else {
+    // Sinon, on reste sur du Portugais authentique
+    utterance.lang = 'pt-PT';
+  }
+
+  utterance.rate = 0.9; 
   utterance.pitch = 1;
 
   window.speechSynthesis.speak(utterance);
