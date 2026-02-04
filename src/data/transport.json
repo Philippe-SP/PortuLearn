@@ -1,0 +1,88 @@
+{
+  "id": "vocab-transports-01",
+  "title": "Os Transportes",
+  "category": "VOCAB",
+  "theory": {
+    "description": "Indispensável para viajar. 'Apanhar o comboio' significa prendre le train.",
+    "vocabulary": [
+      { "word": "O carro", "translation": "La voiture" },
+      { "word": "O autocarro", "translation": "Le bus" },
+      { "word": "O comboio", "translation": "Le train" },
+      { "word": "O elétrico", "translation": "Le tramway" },
+      { "word": "O metro", "translation": "Le métro" },
+      { "word": "O avião", "translation": "L'avion" },
+      { "word": "A bicicleta", "translation": "Le vélo" },
+      { "word": "O barco", "translation": "Le bateau" },
+      { "word": "A mota", "translation": "La moto" },
+      { "word": "A pé", "translation": "À pied" },
+      { "word": "O bilhete", "translation": "Le billet" },
+      { "word": "A mala", "translation": "La valise" }
+    ]
+  },
+  "exercices": [
+    { 
+      "id": "trans-01", 
+      "title": "Em Lisboa, o transporte amarelo famoso é o ___.", 
+      "translation": "À Lisbonne, le célèbre transport jaune est le ___.",
+      "category": "Vocabulaire", 
+      "options": ["elétrico", "avião", "barco", "mota"], 
+      "correctAnswer": "elétrico" 
+    },
+    { 
+      "id": "trans-02", 
+      "title": "Comment dit-on 'Le bus' au Portugal ?", 
+      "translation": "Le bus : ___",
+      "category": "Vocabulaire", 
+      "options": ["O metro", "O autocarro", "O carro", "O comboio"], 
+      "correctAnswer": "O autocarro" 
+    },
+    { 
+      "id": "trans-03", 
+      "title": "Para ir à Madeira ou aos Açores, eu vou de ___.", 
+      "translation": "Pour aller à Madère ou aux Açores, je vais en ___.",
+      "category": "Vocabulaire", 
+      "options": ["mota", "avião", "bicicleta", "elétrico"], 
+      "correctAnswer": "avião" 
+    },
+    { 
+      "id": "trans-04", 
+      "title": "Eu não tenho carro, eu ando sempre ___.", 
+      "translation": "Je n'ai pas de voiture, je marche toujours ___.",
+      "category": "Vocabulaire", 
+      "options": ["a pé", "de avião", "de barco", "de mala"], 
+      "correctAnswer": "a pé" 
+    },
+    { 
+      "id": "trans-05", 
+      "title": "Comment dit-on 'Le train' ?", 
+      "translation": "Le train : ___",
+      "category": "Vocabulaire", 
+      "options": ["O autocarro", "O comboio", "O elétrico", "O bilhete"], 
+      "correctAnswer": "O comboio" 
+    },
+    { 
+      "id": "trans-06", 
+      "title": "Antes de entrar no metro, eu compro o ___.", 
+      "translation": "Avant d'entrer dans le métro, j'achète le ___.",
+      "category": "Vocabulaire", 
+      "options": ["bilhete", "barco", "carro", "avião"], 
+      "correctAnswer": "bilhete" 
+    },
+    { 
+      "id": "trans-07", 
+      "title": "Para atravessar o rio Tejo, eu apanho o ___.", 
+      "translation": "Pour traverser le fleuve Tage, je prends le ___.",
+      "category": "Vocabulaire", 
+      "options": ["barco", "comboio", "autocarro", "mota"], 
+      "correctAnswer": "barco" 
+    },
+    { 
+      "id": "trans-08", 
+      "title": "Comment dit-on 'La valise' ?", 
+      "translation": "La valise : ___",
+      "category": "Vocabulaire", 
+      "options": ["A mala", "A mota", "A bicicleta", "O bilhete"], 
+      "correctAnswer": "A mala" 
+    }
+  ]
+}

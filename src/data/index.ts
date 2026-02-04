@@ -7,8 +7,15 @@ import numbers from './numbers.json';
 import objects from './objects.json';
 import emotions from './emotions.json';
 import food from './food.json';
-import verbeAction from './verbe-action.json';
+import restaurant from './restaurant.json';
 import politeness from './politeness.json';
+import familly from './familly.json';
+import human from './human.json';
+import calendar from './calendar.json';
+import city from './city.json';
+import clothes from './clothes.json';
+import transport from './transport.json';
+import adjectif from './adjectif.json';
 
 import type { Lesson } from '../types';
 
@@ -25,6 +32,13 @@ export const vocabularyLessons: LessonEntry[] = [
   { data: objects as Lesson, desc: "Les objets du quotidien" },
   { data: emotions as Lesson, desc: "Emotions et Etats" },
   { data: food as Lesson, desc: "Nourriture et boissons" },
-  { data: verbeAction as Lesson, desc: "Les verbes d'action basiques" },
+  { data: restaurant as Lesson, desc: "Les essentiels au restaurant/café" },
   { data: politeness as Lesson, desc: "Les formules de politesse" },
+  { data: familly as Lesson, desc: "Les membres de la famille" },
+  { data: human as Lesson, desc: "Les parties du corp humain" },
+  { data: calendar as Lesson, desc: "Le vocabulaire du calendrier" },
+  { data: city as Lesson, desc: "Les lieux dans une ville" },
+  { data: clothes as Lesson, desc: "Les vêtements" },
+  { data: transport as Lesson, desc: "Les moyens de transport" },
+  { data: adjectif as Lesson, desc: "Les adjectifs communs" },
 ];

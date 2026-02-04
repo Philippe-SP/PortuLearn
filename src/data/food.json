@@ -19,6 +19,7 @@
     {
       "id": "food-01",
       "title": "Comment dit-on 'Le pain' ?",
+      "translation": "Le pain : ___",
       "category": "Vocabulaire",
       "options": ["O arroz", "O pão", "O leite", "A carne"],
       "correctAnswer": "O pão"
@@ -26,6 +27,7 @@
     {
       "id": "food-02",
       "title": "No restaurante, eu quero beber ___.",
+      "translation": "Au restaurant, je veux boire ___.",
       "category": "Vocabulaire",
       "options": ["a água", "a carne", "o peixe", "o pão"],
       "correctAnswer": "a água"
@@ -33,9 +35,34 @@
     {
       "id": "food-03",
       "title": "O bacalhau (la morue) é um ___.",
+      "translation": "La morue est un ___.",
       "category": "Vocabulaire",
       "options": ["leite", "peixe", "fruta", "arroz"],
       "correctAnswer": "peixe"
+    },
+    {
+      "id": "food-04",
+      "title": "De manhã, eu bebo um ___ com leite.",
+      "translation": "Le matin, je bois un ___ avec du lait.",
+      "category": "Vocabulaire",
+      "options": ["arroz", "carne", "café", "peixe"],
+      "correctAnswer": "café"
+    },
+    {
+      "id": "food-05",
+      "title": "A maçã é uma ___.",
+      "translation": "La pomme est un ___.",
+      "category": "Vocabulaire",
+      "options": ["carne", "fruta", "leite", "água"],
+      "correctAnswer": "fruta"
+    },
+    {
+      "id": "food-06",
+      "title": "O bife é um tipo de ___.",
+      "translation": "Le steak est un type de ___.",
+      "category": "Vocabulaire",
+      "options": ["arroz", "água", "leite", "carne"],
+      "correctAnswer": "carne"
     }
   ]
 }

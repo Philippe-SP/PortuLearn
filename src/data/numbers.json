@@ -31,6 +31,7 @@
     {
       "id": "num-01",
       "title": "Comment dit-on '20' ?",
+      "translation": "20 : ___",
       "category": "Vocabulaire",
       "options": ["Dez", "Vinte", "Trinta", "Cem"],
       "correctAnswer": "Vinte"
@@ -38,13 +39,15 @@
     {
       "id": "num-02",
       "title": "Si j'ai 2 vaches (vacas), je dis :",
+      "translation": "2 vaches : ___",
       "category": "Vocabulaire",
       "options": ["Dois vacas", "Duas vacas", "Dez vacas", "Três vacas"],
-      "correctAnswer": "Duas vacas"
+      "correctAnswer": "Duas vaches"
     },
     {
       "id": "num-03",
       "title": "Oitenta correspond à quel nombre ?",
+      "translation": "Oitenta : ___",
       "category": "Vocabulaire",
       "options": ["18", "70", "80", "90"],
       "correctAnswer": "80"
@@ -52,9 +55,26 @@
     {
       "id": "num-04",
       "title": "Le nombre '1000' se dit :",
+      "translation": "1000 : ___",
       "category": "Vocabulaire",
       "options": ["Cem", "Mil", "Milhão", "Dez"],
       "correctAnswer": "Mil"
+    },
+    {
+      "id": "num-05",
+      "title": "O número '7' diz-se :",
+      "translation": "Le nombre '7' se dit : ___",
+      "category": "Vocabulaire",
+      "options": ["Seis", "Sete", "Oito", "Nove"],
+      "correctAnswer": "Sete"
+    },
+    {
+      "id": "num-06",
+      "title": "Cinquenta é metade de ___.",
+      "translation": "Cinquante est la moitié de ___.",
+      "category": "Vocabulaire",
+      "options": ["Vinte", "Trinta", "Cem", "Mil"],
+      "correctAnswer": "Cem"
     }
   ]
 }

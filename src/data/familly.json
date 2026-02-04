@@ -1,0 +1,68 @@
+{
+  "id": "vocab-family-01",
+  "title": "A Família",
+  "category": "VOCAB",
+  "theory": {
+    "description": "Apprends à présenter tes proches. Pour demander 'Qui est-ce ?' : 'Quem é este?'.",
+    "vocabulary": [
+      { "word": "O pai", "translation": "Le père" },
+      { "word": "A mãe", "translation": "La mère" },
+      { "word": "O irmão", "translation": "Le frère" },
+      { "word": "A irmã", "translation": "La sœur" },
+      { "word": "O filho", "translation": "Le fils" },
+      { "word": "A filha", "translation": "La fille" },
+      { "word": "O avô", "translation": "Le grand-père" },
+      { "word": "A avó", "translation": "La grand-mère" }
+    ]
+  },
+  "exercices": [
+    { 
+      "id": "fam-01", 
+      "title": "Comment dit-on 'La mère' ?", 
+      "translation": "La mère : ___",
+      "category": "Vocabulaire", 
+      "options": ["O pai", "A mãe", "A irmã", "A avó"], 
+      "correctAnswer": "A mãe" 
+    },
+    { 
+      "id": "fam-02", 
+      "title": "O pai da minha mãe é o meu ___.", 
+      "translation": "Le père de ma mère est mon ___.",
+      "category": "Vocabulaire", 
+      "options": ["irmão", "filho", "avô", "pai"], 
+      "correctAnswer": "avô" 
+    },
+    { 
+      "id": "fam-03", 
+      "title": "A filha da minha mãe é a minha ___.", 
+      "translation": "La fille de ma mère est ma ___.",
+      "category": "Vocabulaire", 
+      "options": ["irmã", "avó", "mãe", "filha"], 
+      "correctAnswer": "irmã" 
+    },
+    { 
+      "id": "fam-04", 
+      "title": "Comment dit-on 'Le fils' ?", 
+      "translation": "Le fils : ___",
+      "category": "Vocabulaire", 
+      "options": ["O avô", "O filho", "O irmão", "O pai"], 
+      "correctAnswer": "O filho" 
+    },
+    { 
+      "id": "fam-05", 
+      "title": "Eu tenho um ___ e uma irmã.", 
+      "translation": "J'ai un ___ et une sœur.",
+      "category": "Vocabulaire", 
+      "options": ["avó", "irmão", "mãe", "filha"], 
+      "correctAnswer": "irmão" 
+    },
+    { 
+      "id": "fam-06", 
+      "title": "A mãe do meu pai é a minha ___.", 
+      "translation": "La mère de mon père est ma ___.",
+      "category": "Vocabulaire", 
+      "options": ["mãe", "filha", "avó", "irmã"], 
+      "correctAnswer": "avó" 
+    }
+  ]
+}

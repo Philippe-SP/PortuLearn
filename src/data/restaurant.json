@@ -1,0 +1,86 @@
+{
+  "id": "vocab-rest-01",
+  "title": "No Restaurante e Café",
+  "category": "VOCAB",
+  "theory": {
+    "description": "Indispensável para sobreviver em Portugal! A conta (l'addition), o pequeno-almoço (le petit-déjeuner).",
+    "vocabulary": [
+      { "word": "A conta", "translation": "L'addition" },
+      { "word": "A ementa", "translation": "La carte / Le menu" },
+      { "word": "O empregado", "translation": "Le serveur" },
+      { "word": "O pequeno-almoço", "translation": "Le petit-déjeuner" },
+      { "word": "O almoço", "translation": "Le déjeuner" },
+      { "word": "O jantar", "translation": "Le dîner" },
+      { "word": "Um copo", "translation": "Un verre" },
+      { "word": "Uma chávena", "translation": "Une tasse" },
+      { "word": "A faca / O garfo", "translation": "Le couteau / La fourchette" },
+      { "word": "Guardanapo", "translation": "Serviette" }
+    ]
+  },
+  "exercices": [
+    {
+      "id": "rest-01",
+      "title": "Depois de comer, eu peço a ___.",
+      "translation": "Après avoir mangé, je demande l'___.",
+      "category": "Vocabulaire",
+      "options": ["ementa", "conta", "faca", "chávena"],
+      "correctAnswer": "conta"
+    },
+    {
+      "id": "rest-02",
+      "title": "Para escolher a comida, eu leio a ___.",
+      "translation": "Pour choisir la nourriture, je lis la ___.",
+      "category": "Vocabulaire",
+      "options": ["ementa", "conta", "chávena", "faca"],
+      "correctAnswer": "ementa"
+    },
+    {
+      "id": "rest-03",
+      "title": "A primeira refeição do dia é o ___.",
+      "translation": "Le premier repas du jour est le ___.",
+      "category": "Vocabulaire",
+      "options": ["jantar", "almoço", "pequeno-almoço", "empregado"],
+      "correctAnswer": "pequeno-almoço"
+    },
+    {
+      "id": "rest-04",
+      "title": "Comment dit-on 'Une tasse' (pour le café) ?",
+      "translation": "Une tasse : ___",
+      "category": "Vocabulaire",
+      "options": ["Um copo", "Uma chávena", "Um guardanapo", "Uma faca"],
+      "correctAnswer": "Uma chávena"
+    },
+    {
+      "id": "rest-05",
+      "title": "A pessoa que serve a mesa é o ___.",
+      "translation": "La personne qui sert à table est le ___.",
+      "category": "Vocabulaire",
+      "options": ["almoço", "ementa", "empregado", "garfo"],
+      "correctAnswer": "empregado"
+    },
+    {
+      "id": "rest-06",
+      "title": "Para cortar a carne, eu uso a ___.",
+      "translation": "Pour couper la viande, j'utilise le ___.",
+      "category": "Vocabulaire",
+      "options": ["faca", "chávena", "conta", "ementa"],
+      "correctAnswer": "faca"
+    },
+    {
+      "id": "rest-07",
+      "title": "Comment dit-on 'Un verre' (pour l'eau) ?",
+      "translation": "Un verre : ___",
+      "category": "Vocabulaire",
+      "options": ["Um copo", "Uma chávena", "O almoço", "A conta"],
+      "correctAnswer": "Um copo"
+    },
+    {
+      "id": "rest-08",
+      "title": "À noite, nós comemos o ___.",
+      "translation": "Le soir, nous mangeons le ___.",
+      "category": "Vocabulaire",
+      "options": ["pequeno-almoço", "jantar", "almoço", "empregado"],
+      "correctAnswer": "jantar"
+    }
+  ]
+}

@@ -19,13 +19,15 @@
     {
       "id": "pol-01",
       "title": "Une femme doit dire pour remercier :",
+      "translation": "Une femme doit dire pour remercier : ___",
       "category": "Vocabulaire",
       "options": ["Obrigado", "Obrigada", "Faz favor", "De nada"],
       "correctAnswer": "Obrigada"
     },
     {
       "id": "pol-02",
-      "title": "Comment dit-on 'S'il vous plaît' (comme à Braga) ?",
+      "title": "Comment dit-on 'S'il vous plaît' ?",
+      "translation": "S'il vous plaît : ___",
       "category": "Vocabulaire",
       "options": ["Com licença", "Faz favor", "Desculpe", "Boa tarde"],
       "correctAnswer": "Faz favor"
@@ -33,6 +35,7 @@
     {
       "id": "pol-03",
       "title": "À 16h, pour saluer quelqu'un, on dit :",
+      "translation": "À 16h, pour saluer quelqu'un, on dit : ___",
       "category": "Vocabulaire",
       "options": ["Bom dia", "Boa noite", "Boa tarde", "Obrigado"],
       "correctAnswer": "Boa tarde"
@@ -40,9 +43,42 @@
     {
       "id": "pol-04",
       "title": "Pour s'excuser d'avoir bousculé quelqu'un :",
+      "translation": "Pour s'excuser d'avoir bousculé quelqu'un : ___",
       "category": "Vocabulaire",
       "options": ["Com licença", "Desculpe", "De nada", "Bom dia"],
       "correctAnswer": "Desculpe"
+    },
+    {
+      "id": "pol-05",
+      "title": "Depois de dizer 'Obrigado', a outra pessoa diz :",
+      "translation": "Après avoir dit 'Merci', l'autre personne dit : ___",
+      "category": "Vocabulaire",
+      "options": ["De nada", "Boa noite", "Desculpe", "Com licença"],
+      "correctAnswer": "De nada"
+    },
+    {
+      "id": "pol-06",
+      "title": "Para passar no meio de pessoas, eu digo :",
+      "translation": "Pour passer au milieu des gens, je dis : ___",
+      "category": "Vocabulaire",
+      "options": ["Boa tarde", "Com licença", "Obrigado", "Bom dia"],
+      "correctAnswer": "Com licença"
+    },
+    {
+      "id": "pol-07",
+      "title": "De manhã (9h), eu cumprimento as pessoas com :",
+      "translation": "Le matin (9h), je salue les gens avec : ___",
+      "category": "Vocabulaire",
+      "options": ["Boa tarde", "Boa noite", "Bom dia", "Desculpe"],
+      "correctAnswer": "Bom dia"
+    },
+    {
+      "id": "pol-08",
+      "title": "Às 22h, quando vou embora, eu digo :",
+      "translation": "À 22h, quand je m'en vais, je dis : ___",
+      "category": "Vocabulaire",
+      "options": ["Bom dia", "Boa tarde", "Boa noite", "Faz favor"],
+      "correctAnswer": "Boa noite"
     }
   ]
 }

@@ -1,12 +1,23 @@
 @import "tailwindcss";
 
+@theme {
+  /* C'est ici que se définit la police en Tailwind v4 */
+  --font-sans: "Nunito", ui-sans-serif, system-ui, sans-serif;
+}
+
 @layer base {
+  html {
+    /* On force l'application de la police sur tout le document */
+    font-family: var(--font-sans);
+  }
+  
   button {
     -webkit-tap-highlight-color: transparent;
     touch-action: manipulation;
   }
 }
 
+/* Le reste de tes utilitaires (no-scrollbar, etc.) reste identique */
 @layer utilities {
   /* Cache la barre de scroll pour les onglets mais permet le swipe */
   .no-scrollbar::-webkit-scrollbar {

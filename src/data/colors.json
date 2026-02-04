@@ -22,6 +22,7 @@
     {
       "id": "col-01",
       "title": "Como se diz 'Rouge' em português?",
+      "translation": "Comment dit-on 'Rouge' en portugais ?",
       "category": "Vocabulaire",
       "options": ["Verde", "Vermelho", "Azul", "Preto"],
       "correctAnswer": "Vermelho"
@@ -29,6 +30,7 @@
     {
       "id": "col-02",
       "title": "Qual é a cor do céu (ciel)?",
+      "translation": "Quelle est la couleur du ciel ?",
       "category": "Vocabulaire",
       "options": ["Amarelo", "Branco", "Azul", "Roxo"],
       "correctAnswer": "Azul"
@@ -36,9 +38,34 @@
     {
       "id": "col-03",
       "title": "As nuvens (nuages) antes de chover são ___.",
+      "translation": "Les nuages avant de pleuvoir sont ___.",
       "category": "Vocabulaire",
       "options": ["Preto", "Cinzento", "Vermelho", "Rosa"],
       "correctAnswer": "Cinzento"
+    },
+    {
+      "id": "col-04",
+      "title": "A erva (l'herbe) é de cor ___.",
+      "translation": "L'herbe est de couleur ___.",
+      "category": "Vocabulaire",
+      "options": ["Verde", "Laranja", "Roxo", "Branco"],
+      "correctAnswer": "Verde"
+    },
+    {
+      "id": "col-05",
+      "title": "A neve (la neige) é ___.",
+      "translation": "La neige est ___.",
+      "category": "Vocabulaire",
+      "options": ["Preto", "Azul", "Branco", "Castanho"],
+      "correctAnswer": "Branco"
+    },
+    {
+      "id": "col-06",
+      "title": "O sol é ___.",
+      "translation": "Le soleil est ___.",
+      "category": "Vocabulaire",
+      "options": ["Amarelo", "Vermelho", "Verde", "Azul"],
+      "correctAnswer": "Amarelo"
     }
   ]
 }

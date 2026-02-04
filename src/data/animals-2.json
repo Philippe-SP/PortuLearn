@@ -19,6 +19,7 @@
     {
       "id": "anim2-01",
       "title": "Comment dit-on 'Le lapin' ?",
+      "translation": "Le lapin : ___",
       "category": "Vocabulaire",
       "options": ["O rato", "O coelho", "O urso", "O leão"],
       "correctAnswer": "O coelho"
@@ -26,16 +27,42 @@
     {
       "id": "anim2-02",
       "title": "A 'tartaruga' est un animal :",
+      "translation": "La 'tortue' est un animal : ___",
       "category": "Vocabulaire",
-      "options": ["Très rapide", "Très lent", "Qui vole", "Qui chante"],
-      "correctAnswer": "Très lent"
+      "options": ["Muito rápido", "Muito lento", "Que voa", "Que canta"],
+      "correctAnswer": "Muito lento"
     },
     {
       "id": "anim2-03",
       "title": "O que é 'A abelha' ?",
+      "translation": "Qu'est-ce que 'L'abeille' ?",
       "category": "Vocabulaire",
       "options": ["L'araignée", "L'abeille", "Le singe", "L'ours"],
       "correctAnswer": "L'abeille"
+    },
+    {
+      "id": "anim2-04",
+      "title": "O ___ gosta de comer bananas.",
+      "translation": "Le ___ aime manger des bananes.",
+      "category": "Vocabulaire",
+      "options": ["urso", "macaco", "leão", "rato"],
+      "correctAnswer": "macaco"
+    },
+    {
+      "id": "anim2-05",
+      "title": "A ___ faz teias (toiles).",
+      "translation": "L'___ fait des toiles.",
+      "category": "Vocabulaire",
+      "options": ["abelha", "aranha", "tartaruga", "leão"],
+      "correctAnswer": "aranha"
+    },
+    {
+      "id": "anim2-06",
+      "title": "O ___ é o rei da selva.",
+      "translation": "Le ___ est le roi de la jungle.",
+      "category": "Vocabulaire",
+      "options": ["rato", "coelho", "leão", "urso"],
+      "correctAnswer": "leão"
     }
   ]
 }

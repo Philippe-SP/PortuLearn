@@ -19,6 +19,7 @@
     {
       "id": "anim-01",
       "title": "Comment dit-on 'Le chien' ?",
+      "translation": "Le chien : ___",
       "category": "Vocabulaire",
       "options": ["O gato", "O cão", "O cavalo", "O porco"],
       "correctAnswer": "O cão"
@@ -26,6 +27,7 @@
     {
       "id": "anim-02",
       "title": "O que é 'O galo' ?",
+      "translation": "Qu'est-ce que 'Le coq' ?",
       "category": "Vocabulaire",
       "options": ["Le canard", "Le cochon", "Le coq", "L'oiseau"],
       "correctAnswer": "Le coq"
@@ -33,6 +35,7 @@
     {
       "id": "anim-03",
       "title": "Qual destes vive na água ?",
+      "translation": "Lequel d'entre eux vit dans l'eau ?",
       "category": "Vocabulaire",
       "options": ["O pássaro", "O peixe", "A vaca", "O cavalo"],
       "correctAnswer": "O peixe"
@@ -40,9 +43,26 @@
     {
       "id": "anim-04",
       "title": "L'animal qui fait 'Miau' est :",
+      "translation": "L'animal qui fait 'Miaou' est : ___",
       "category": "Vocabulaire",
       "options": ["O cão", "O gato", "O galo", "O porco"],
       "correctAnswer": "O gato"
+    },
+    {
+      "id": "anim-05",
+      "title": "A ___ dá leite.",
+      "translation": "La ___ donne du lait.",
+      "category": "Vocabulaire",
+      "options": ["vaca", "galo", "peixe", "cão"],
+      "correctAnswer": "vaca"
+    },
+    {
+      "id": "anim-06",
+      "title": "O ___ é um animal que voa (vole).",
+      "translation": "L'___ est un animal qui vole.",
+      "category": "Vocabulaire",
+      "options": ["porco", "cavalo", "pássaro", "gato"],
+      "correctAnswer": "pássaro"
     }
   ]
 }

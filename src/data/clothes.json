@@ -1,0 +1,68 @@
+{
+  "id": "vocab-clothes-01",
+  "title": "Vestuário",
+  "category": "VOCAB",
+  "theory": {
+    "description": "Les vêtements de tous les jours. Au Portugal, on dit 'Camisola' pour un pull.",
+    "vocabulary": [
+      { "word": "A camisola", "translation": "Le pull" },
+      { "word": "As calças", "translation": "Le pantalon" },
+      { "word": "Os sapatos", "translation": "Les chaussures" },
+      { "word": "A t-shirt", "translation": "Le t-shirt" },
+      { "word": "O casaco", "translation": "Le manteau" },
+      { "word": "A saia", "translation": "La jupe" },
+      { "word": "O vestido", "translation": "La robe" },
+      { "word": "As meias", "translation": "Les chaussettes" }
+    ]
+  },
+  "exercices": [
+    { 
+      "id": "clot-01", 
+      "title": "Comment dit-on 'Le pantalon' ?", 
+      "translation": "Le pantalon : ___",
+      "category": "Vocabulaire", 
+      "options": ["O vestido", "As calças", "A saia", "As meias"], 
+      "correctAnswer": "As calças" 
+    },
+    { 
+      "id": "clot-02", 
+      "title": "No inverno, eu visto um ___.", 
+      "translation": "En hiver, je porte un ___.",
+      "category": "Vocabulaire", 
+      "options": ["casaco", "vestido", "saia", "t-shirt"], 
+      "correctAnswer": "casaco" 
+    },
+    { 
+      "id": "clot-03", 
+      "title": "Eu calço os ___.", 
+      "translation": "Je chausse les ___.",
+      "category": "Vocabulaire", 
+      "options": ["sapatos", "camisolas", "vestidos", "casacos"], 
+      "correctAnswer": "sapatos" 
+    },
+    { 
+      "id": "clot-04", 
+      "title": "Comment dit-on 'Les chaussettes' ?", 
+      "translation": "Les chaussettes : ___",
+      "category": "Vocabulaire", 
+      "options": ["As meias", "Os sapatos", "A camisola", "As calças"], 
+      "correctAnswer": "As meias" 
+    },
+    { 
+      "id": "clot-05", 
+      "title": "Uma peça de roupa feminina inteira é um ___.", 
+      "translation": "Un vêtement féminin d'une seule pièce est une ___.",
+      "category": "Vocabulaire", 
+      "options": ["vestido", "casaco", "sapato", "t-shirt"], 
+      "correctAnswer": "vestido" 
+    },
+    { 
+      "id": "clot-06", 
+      "title": "Quando está frio, eu visto uma ___ de lã.", 
+      "translation": "Quand il fait froid, je porte un ___ en laine.",
+      "category": "Vocabulaire", 
+      "options": ["saia", "camisola", "t-shirt", "meia"], 
+      "correctAnswer": "camisola" 
+    }
+  ]
+}

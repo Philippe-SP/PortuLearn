@@ -11,20 +11,25 @@
       { "word": "O computador", "translation": "L'ordinateur" },
       { "word": "A mochila", "translation": "Le sac à dos" },
       { "word": "O carro", "translation": "La voiture" },
-      { "word": "Os óculos", "translation": "Les lunettes" }
+      { "word": "Os óculos", "translation": "Les lunettes" },
+      { "word": "O relógio", "translation": "La montre" },
+      { "word": "O livro", "translation": "Le livre" },
+      { "word": "O guarda-chuva", "translation": "Le parapluie" }
     ]
   },
   "exercices": [
     {
       "id": "obj-01",
       "title": "O que é 'A chave' ?",
+      "translation": "Qu'est-ce que 'La clé' ?",
       "category": "Vocabulaire",
       "options": ["La voiture", "La clé", "Le sac", "Le téléphone"],
       "correctAnswer": "La clé"
     },
     {
       "id": "obj-02",
-      "title": "Comment dit-on 'Le téléphone' au Portugal ?",
+      "title": "Comment dit-on 'Le téléphone' ?",
+      "translation": "Le téléphone : ___",
       "category": "Vocabulaire",
       "options": ["O computador", "O telemóvel", "O carro", "A mochila"],
       "correctAnswer": "O telemóvel"
@@ -32,9 +37,50 @@
     {
       "id": "obj-03",
       "title": "Se eu não vejo bem, eu preciso de ___.",
+      "translation": "Si je ne vois pas bien, j'ai besoin de ___.",
       "category": "Vocabulaire",
       "options": ["uma chave", "uma carteira", "óculos", "um carro"],
       "correctAnswer": "óculos"
+    },
+    {
+      "id": "obj-04",
+      "title": "Para abrir a porta de casa, uso a ___.",
+      "translation": "Pour ouvrir la porte de la maison, j'utilise la ___.",
+      "category": "Vocabulaire",
+      "options": ["mochila", "chave", "carteira", "carro"],
+      "correctAnswer": "chave"
+    },
+    {
+      "id": "obj-05",
+      "title": "Eu guardo o meu dinheiro na ___.",
+      "translation": "Je garde mon argent dans le ___.",
+      "category": "Vocabulaire",
+      "options": ["carteira", "mochila", "livro", "relógio"],
+      "correctAnswer": "carteira"
+    },
+    {
+      "id": "obj-06",
+      "title": "Para saber as horas, olho para o ___.",
+      "translation": "Pour savoir l'heure, je regarde la ___.",
+      "category": "Vocabulaire",
+      "options": ["computador", "telemóvel", "relógio", "guarda-chuva"],
+      "correctAnswer": "relógio"
+    },
+    {
+      "id": "obj-07",
+      "title": "Quando chove, eu uso o ___.",
+      "translation": "Quand il pleut, j'utilise le ___.",
+      "category": "Vocabulaire",
+      "options": ["carro", "guarda-chuva", "livro", "computador"],
+      "correctAnswer": "guarda-chuva"
+    },
+    {
+      "id": "obj-08",
+      "title": "Eu leio um ___ antes de dormir.",
+      "translation": "Je lis un ___ avant de dormir.",
+      "category": "Vocabulaire",
+      "options": ["livro", "telemóvel", "carro", "computador"],
+      "correctAnswer": "livro"
     }
   ]
 }

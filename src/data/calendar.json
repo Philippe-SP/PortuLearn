@@ -1,0 +1,89 @@
+{
+  "id": "vocab-time-complete",
+  "title": "O Calendário e o Tempo",
+  "category": "VOCAB",
+  "theory": {
+    "description": "Tout pour gérer son emploi du temps au Portugal.",
+    "vocabulary": [
+      { "word": "Segunda-feira", "translation": "Lundi" },
+      { "word": "Terça-feira", "translation": "Mardi" },
+      { "word": "Quarta-feira", "translation": "Mercredi" },
+      { "word": "Quinta-feira", "translation": "Jeudi" },
+      { "word": "Sexta-feira", "translation": "Vendredi" },
+      { "word": "Sábado", "translation": "Samedi" },
+      { "word": "Domingo", "translation": "Dimanche" },
+      { "word": "A manhã", "translation": "Le matin" },
+      { "word": "A tarde", "translation": "L'après-midi" },
+      { "word": "A noite", "translation": "La nuit / Le soir" },
+      { "word": "Hoje", "translation": "Aujourd'hui" },
+      { "word": "Amanhã", "translation": "Demain" },
+      { "word": "O mês", "translation": "Le mois" }
+    ]
+  },
+  "exercices": [
+    { 
+      "id": "time-01", 
+      "title": "O dia antes de terça-feira é ___.", 
+      "translation": "Le jour avant mardi est ___.", 
+      "category": "Vocabulaire", 
+      "options": ["Segunda-feira", "Quarta-feira", "Sábado", "Domingo"], 
+      "correctAnswer": "Segunda-feira" 
+    },
+    { 
+      "id": "time-02", 
+      "title": "O fim de semana é composto por sábado e ___.", 
+      "translation": "Le week-end est composé de samedi et ___.", 
+      "category": "Vocabulaire", 
+      "options": ["Sexta-feira", "Domingo", "Quinta-feira", "Terça-feira"], 
+      "correctAnswer": "Domingo" 
+    },
+    { 
+      "id": "time-03", 
+      "title": "Trabalhamos de segunda a ___.", 
+      "translation": "Nous travaillons du lundi au ___.", 
+      "category": "Vocabulaire", 
+      "options": ["Sexta-feira", "Domingo", "Sábado", "Amanhã"], 
+      "correctAnswer": "Sexta-feira" 
+    },
+    { 
+      "id": "time-04", 
+      "title": "Depois da tarde, vem a ___.", 
+      "translation": "Après l'après-midi, vient la ___.", 
+      "category": "Vocabulaire", 
+      "options": ["Manhã", "Noite", "Segunda", "Hoje"], 
+      "correctAnswer": "Noite" 
+    },
+    { 
+      "id": "time-05", 
+      "title": "Comment dit-on 'Jeudi' ?", 
+      "translation": "Jeudi : ___", 
+      "category": "Vocabulaire", 
+      "options": ["Quarta-feira", "Quinta-feira", "Terça-feira", "Sexta-feira"], 
+      "correctAnswer": "Quinta-feira" 
+    },
+    { 
+      "id": "time-06", 
+      "title": "Comment dit-on 'Mardi' ?", 
+      "translation": "Mardi : ___", 
+      "category": "Vocabulaire", 
+      "options": ["Terça-feira", "Segunda-feira", "Quarta-feira", "Sábado"], 
+      "correctAnswer": "Terça-feira" 
+    },
+    { 
+      "id": "time-07", 
+      "title": "O pequeno-almoço é de ___.", 
+      "translation": "Le petit-déjeuner est le ___.", 
+      "category": "Vocabulaire", 
+      "options": ["manhã", "noite", "ontem", "tarde"], 
+      "correctAnswer": "manhã" 
+    },
+    { 
+      "id": "time-08", 
+      "title": "O dia après hoje é ___.", 
+      "translation": "Le jour après aujourd'hui est ___.", 
+      "category": "Vocabulaire", 
+      "options": ["Ontem", "Amanhã", "Sábado", "O mês"], 
+      "correctAnswer": "Amanhã" 
+    }
+  ]
+}

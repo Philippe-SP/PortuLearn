@@ -1,0 +1,88 @@
+{
+  "id": "vocab-body-complete",
+  "title": "O Corpo Humano",
+  "category": "VOCAB",
+  "theory": {
+    "description": "Indispensable pour décrire une douleur ou une personne.",
+    "vocabulary": [
+      { "word": "A cabeça", "translation": "La tête" },
+      { "word": "O rosto", "translation": "Le visage" },
+      { "word": "Os olhos", "translation": "Les yeux" },
+      { "word": "As orelhas", "translation": "Les oreilles" },
+      { "word": "Os dentes", "translation": "Les dents" },
+      { "word": "O pescoço", "translation": "Le cou" },
+      { "word": "Os ombros", "translation": "Les épaules" },
+      { "word": "As mãos", "translation": "Les mains" },
+      { "word": "Os dedos", "translation": "Les doigts" },
+      { "word": "O coração", "translation": "Le cœur" },
+      { "word": "As pernas", "translation": "Les jambes" },
+      { "word": "Os pés", "translation": "Les pieds" }
+    ]
+  },
+  "exercices": [
+    { 
+      "id": "body-01", 
+      "title": "Nós mastigamos com os ___.", 
+      "translation": "Nous mâchons avec les ___.",
+      "category": "Vocabulaire", 
+      "options": ["olhos", "dentes", "ombros", "pés"], 
+      "correctAnswer": "dentes" 
+    },
+    { 
+      "id": "body-02", 
+      "title": "Comment dit-on 'Les mains' ?", 
+      "translation": "Les mains : ___",
+      "category": "Vocabulaire", 
+      "options": ["As mãos", "As pernas", "Os dedos", "O rosto"], 
+      "correctAnswer": "As mãos" 
+    },
+    { 
+      "id": "body-03", 
+      "title": "Ouvimos música com as ___.", 
+      "translation": "Nous écoutons de la musique avec les ___.",
+      "category": "Vocabulaire", 
+      "options": ["orelhas", "mãos", "pernas", "boca"], 
+      "correctAnswer": "orelhas" 
+    },
+    { 
+      "id": "body-04", 
+      "title": "Cada mão tem cinco ___.", 
+      "translation": "Chaque main a cinq ___.",
+      "category": "Vocabulaire", 
+      "options": ["braços", "dedos", "olhos", "dentes"], 
+      "correctAnswer": "dedos" 
+    },
+    { 
+      "id": "body-05", 
+      "title": "O órgão que bate no peito é o ___.", 
+      "translation": "L'organe qui bat dans la poitrine est le ___.",
+      "category": "Vocabulaire", 
+      "options": ["coração", "rosto", "pé", "ombro"], 
+      "correctAnswer": "coração" 
+    },
+    { 
+      "id": "body-06", 
+      "title": "Comment dit-on 'Le cou' ?", 
+      "translation": "Le cou : ___",
+      "category": "Vocabulaire", 
+      "options": ["O rosto", "O pescoço", "O ombro", "A cabeça"], 
+      "correctAnswer": "O pescoço" 
+    },
+    { 
+      "id": "body-07", 
+      "title": "Usamos os sapatos nos ___.", 
+      "translation": "Nous utilisons les chaussures aux ___.",
+      "category": "Vocabulaire", 
+      "options": ["pés", "mãos", "ombros", "olhos"], 
+      "correctAnswer": "pés" 
+    },
+    { 
+      "id": "body-08", 
+      "title": "Os óculos são para os ___.", 
+      "translation": "Les lunettes sont pour les ___.",
+      "category": "Vocabulaire", 
+      "options": ["olhos", "dentes", "pés", "dedos"], 
+      "correctAnswer": "olhos" 
+    }
+  ]
+}

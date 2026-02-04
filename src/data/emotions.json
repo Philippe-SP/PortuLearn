@@ -18,6 +18,7 @@
     {
       "id": "emo-01",
       "title": "Eu quero comer, eu tenho ___.",
+      "translation": "Je veux manger, j'ai ___.",
       "category": "Vocabulaire",
       "options": ["sede", "fome", "feliz", "doente"],
       "correctAnswer": "fome"
@@ -25,6 +26,7 @@
     {
       "id": "emo-02",
       "title": "Depois de trabalhar muito, eu estou ___.",
+      "translation": "Après avoir beaucoup travaillé, je suis ___.",
       "category": "Vocabulaire",
       "options": ["cansado", "feliz", "triste", "sede"],
       "correctAnswer": "cansado"
@@ -32,9 +34,34 @@
     {
       "id": "emo-03",
       "title": "O contrário de 'Bem' é ___.",
+      "translation": "Le contraire de 'Bien' est ___.",
       "category": "Vocabulaire",
       "options": ["Feliz", "Mal", "Triste", "Doente"],
       "correctAnswer": "Mal"
+    },
+    {
+      "id": "emo-04",
+      "title": "Eu bebo água porque tenho ___.",
+      "translation": "Je bois de l'eau parce que j'ai ___.",
+      "category": "Vocabulaire",
+      "options": ["fome", "sede", "bem", "cansado"],
+      "correctAnswer": "sede"
+    },
+    {
+      "id": "emo-05",
+      "title": "Hoje eu ganhei o totoloto, estou muito ___!",
+      "translation": "Aujourd'hui j'ai gagné au loto, je suis très ___ !",
+      "category": "Vocabulaire",
+      "options": ["triste", "mal", "feliz", "doente"],
+      "correctAnswer": "feliz"
+    },
+    {
+      "id": "emo-06",
+      "title": "Vou ao médico porque estou ___.",
+      "translation": "Je vais chez le médecin parce que je suis ___.",
+      "category": "Vocabulaire",
+      "options": ["bem", "doente", "feliz", "fome"],
+      "correctAnswer": "doente"
     }
   ]
 }

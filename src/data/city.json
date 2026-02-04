@@ -1,0 +1,68 @@
+{
+  "id": "vocab-city-01",
+  "title": "Lugares na Cidade",
+  "category": "VOCAB",
+  "theory": {
+    "description": "S'orienter en ville. 'Onde fica a farmácia?' (Où se trouve la pharmacie ?).",
+    "vocabulary": [
+      { "word": "O supermercado", "translation": "Le supermarché" },
+      { "word": "A farmácia", "translation": "La pharmacie" },
+      { "word": "O restaurante", "translation": "Le restaurant" },
+      { "word": "A estação", "translation": "La gare" },
+      { "word": "A rua", "translation": "La rue" },
+      { "word": "O hospital", "translation": "L'hôpital" },
+      { "word": "A padaria", "translation": "La boulangerie" },
+      { "word": "O parque", "translation": "Le parc" }
+    ]
+  },
+  "exercices": [
+    { 
+      "id": "city-01", 
+      "title": "Onde compro pão fresco ?", 
+      "translation": "Où achète-t-on du pain frais ?",
+      "category": "Vocabulaire", 
+      "options": ["No hospital", "Na padaria", "Na estação", "Na rua"], 
+      "correctAnswer": "Na padaria" 
+    },
+    { 
+      "id": "city-02", 
+      "title": "Comment dit-on 'La gare' ?", 
+      "translation": "La gare : ___",
+      "category": "Vocabulaire", 
+      "options": ["O restaurante", "A estação", "O parque", "A farmácia"], 
+      "correctAnswer": "A estação" 
+    },
+    { 
+      "id": "city-03", 
+      "title": "Se estou doente, vou ao ___.", 
+      "translation": "Si je suis malade, je vais à l'___.",
+      "category": "Vocabulaire", 
+      "options": ["hospital", "supermercado", "parque", "restaurante"], 
+      "correctAnswer": "hospital" 
+    },
+    { 
+      "id": "city-04", 
+      "title": "Eu moro nesta ___.", 
+      "translation": "J'habite dans cette ___.",
+      "category": "Vocabulaire", 
+      "options": ["rua", "estação", "padaria", "hospital"], 
+      "correctAnswer": "rua" 
+    },
+    { 
+      "id": "city-05", 
+      "title": "Para apanhar o comboio, vou à ___.", 
+      "translation": "Pour prendre le train, je vais à la ___.",
+      "category": "Vocabulaire", 
+      "options": ["farmácia", "estação", "rua", "parque"], 
+      "correctAnswer": "estação" 
+    },
+    { 
+      "id": "city-06", 
+      "title": "Eu preciso de comprar comida no ___.", 
+      "translation": "J'ai besoin d'acheter de la nourriture au ___.",
+      "category": "Vocabulaire", 
+      "options": ["hospital", "supermercado", "parque", "estação"], 
+      "correctAnswer": "supermercado" 
+    }
+  ]
+}

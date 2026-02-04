@@ -1,0 +1,84 @@
+{
+  "id": "vocab-adj-01",
+  "title": "Adjetivos Comuns",
+  "category": "VOCAB",
+  "theory": {
+    "description": "Pour décrire les choses. Note : l'adjectif s'accorde souvent en genre (o/a).",
+    "vocabulary": [
+      { "word": "Grande", "translation": "Grand / Grande" },
+      { "word": "Pequeno / Pequena", "translation": "Petit / Petite" },
+      { "word": "Bom / Boa", "translation": "Bon / Bonne" },
+      { "word": "Mau / Má", "translation": "Mauvais / Mauvaise" },
+      { "word": "Novo / Nova", "translation": "Nouveau / Neuf" },
+      { "word": "Velho / Velha", "translation": "Vieux / Vieille" },
+      { "word": "Quente", "translation": "Chaud" },
+      { "word": "Frio / Fria", "translation": "Froid" }
+    ]
+  },
+  "exercices": [
+    {
+      "id": "adj-01",
+      "title": "O contrário de 'Grande' é ___.",
+      "translation": "Le contraire de 'Grand' est ___.",
+      "category": "Vocabulaire",
+      "options": ["Pequeno", "Novo", "Bom", "Quente"],
+      "correctAnswer": "Pequeno"
+    },
+    {
+      "id": "adj-02",
+      "title": "Este café está muito ___, não consigo beber.",
+      "translation": "Ce café est très ___, je ne peux pas le boire.",
+      "category": "Vocabulaire",
+      "options": ["Frio", "Quente", "Velho", "Grande"],
+      "correctAnswer": "Quente"
+    },
+    {
+      "id": "adj-03",
+      "title": "Comment dit-on 'Vieux' ?",
+      "translation": "Vieux : ___",
+      "category": "Vocabulaire",
+      "options": ["Velho", "Novo", "Mau", "Bom"],
+      "correctAnswer": "Velho"
+    },
+    {
+      "id": "adj-04",
+      "title": "Uma maçã (pomme) que não é má, é ___.",
+      "translation": "Une pomme qui n'est pas mauvaise est ___.",
+      "category": "Vocabulaire",
+      "options": ["Má", "Boa", "Velha", "Fria"],
+      "correctAnswer": "Boa"
+    },
+    {
+      "id": "adj-05",
+      "title": "O contrário de 'Novo' é ___.",
+      "translation": "Le contraire de 'Neuf' est ___.",
+      "category": "Vocabulaire",
+      "options": ["Velho", "Pequeno", "Bom", "Quente"],
+      "correctAnswer": "Velho"
+    },
+    {
+      "id": "adj-06",
+      "title": "No inverno, o tempo está ___.",
+      "translation": "En hiver, le temps est ___.",
+      "category": "Vocabulaire",
+      "options": ["Quente", "Frio", "Novo", "Bom"],
+      "correctAnswer": "Frio"
+    },
+    {
+      "id": "adj-07",
+      "title": "Um elefante é muito ___.",
+      "translation": "Un éléphant est très ___.",
+      "category": "Vocabulaire",
+      "options": ["Pequeno", "Grande", "Mau", "Frio"],
+      "correctAnswer": "Grande"
+    },
+    {
+      "id": "adj-08",
+      "title": "Comment dit-on 'Mauvais' ?",
+      "translation": "Mauvais : ___",
+      "category": "Vocabulaire",
+      "options": ["Bom", "Mau", "Novo", "Quente"],
+      "correctAnswer": "Mau"
+    }
+  ]
+}
