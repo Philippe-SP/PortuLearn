@@ -60,10 +60,16 @@ export const createDynamicLesson = (identifier: string, tense: string, isSingleV
   const rules: Rule[] = Object.entries(conj).map(([p, v]) => {
     let suffix = "";
     if (!isSingleVerb) {
-      // Pour le futur proche, on met en évidence le verbe "Ir" (le premier mot)
+      // --- Gestion des suffixes pour le futur proche ---
       if (tense === 'futuro_proximo') {
         suffix = v.split(" ")[0]; 
-      } else {
+      } 
+      // --- Gestion des suffixes pour l'Imparfait ---
+      else if (tense === 'imperfeito') {
+        // -ava pour les AR (3 lettres), -ia pour les ER/IR (2 lettres)
+        suffix = (exampleVerb.group === "AR") ? v.slice(-3) : v.slice(-2);
+      } 
+      else {
         suffix = v.slice(-2); 
       }
     }
@@ -95,17 +101,25 @@ export const createDynamicLesson = (identifier: string, tense: string, isSingleV
     .sort(() => Math.random() - 0.5)
     .slice(0, 8); 
 
-  // Formatage du titre pour le futur proche
-  const displayTense = tense === 'present' ? 'Presente' : (tense === 'passe' ? 'Passado' : 'Futuro Próximo');
+  // --- Titres propres pour tous les temps ---
+  const tenseNames: Record<string, string> = {
+    presente: 'Presente',
+    perfeito: 'Pretérito Perfeito',
+    imperfeito: 'Pretérito Imperfeito',
+    futuro_proximo: 'Futuro Próximo'
+  };
+  const displayTense = tenseNames[tense] || tense;
+  // ------------------------------------------------------
 
   return {
     id: `dynamic-${identifier}-${tense}`,
     title: isSingleVerb ? `Verbo ${exampleVerb.infinitif}` : `Verbos em -${identifier} (${displayTense})`,
     category: "Conjugaison",
     theory: {
+      // Description dynamique
       description: isSingleVerb 
         ? `Apprends le verbe ${exampleVerb.infinitif} au ${displayTense}.`
-        : `Entraîne-toi sur les verbes du groupe ${identifier}.`,
+        : `Entraîne-toi sur les verbes du groupe ${identifier} au ${displayTense}.`,
       rules: rules
     },
     exercices: finalExercises

@@ -5,7 +5,8 @@
     "context": "com o professor",
     "conjugaisons": {
       "present": { "Eu": "falo", "Tu": "falas", "Ele": "fala", "Nós": "falamos", "Vós": "falais", "Eles": "falam" },
-      "passe": { "Eu": "falei", "Tu": "falaste", "Ele": "falou", "Nós": "falámos", "Vós": "falastes", "Eles": "falaram" }
+      "passe": { "Eu": "falei", "Tu": "falaste", "Ele": "falou", "Nós": "falámos", "Vós": "falastes", "Eles": "falaram" },
+      "imperfeito": { "Eu": "falava", "Tu": "falavas", "Ele": "falava", "Nós": "falávamos", "Vós": "faláveis", "Eles": "falavam" }
     }
   },
   "comprar": {
@@ -14,7 +15,8 @@
     "context": "um carro novo",
     "conjugaisons": {
       "present": { "Eu": "compro", "Tu": "compras", "Ele": "compra", "Nós": "compramos", "Vós": "comprais", "Eles": "compram" },
-      "passe": { "Eu": "comprei", "Tu": "compreste", "Ele": "comprou", "Nós": "comprámos", "Vós": "comprestes", "Eles": "compraram" }
+      "passe": { "Eu": "comprei", "Tu": "compreste", "Ele": "comprou", "Nós": "comprámos", "Vós": "comprestes", "Eles": "compraram" },
+      "imperfeito": { "Eu": "comprava", "Tu": "compravas", "Ele": "comprava", "Nós": "comprávamos", "Vós": "compráveis", "Eles": "compravam" }
     }
   },
   "trabalhar": {
@@ -23,7 +25,8 @@
     "context": "no escritório",
     "conjugaisons": {
       "present": { "Eu": "trabalho", "Tu": "trabalhas", "Ele": "trabalha", "Nós": "trabalhamos", "Vós": "trabalhais", "Eles": "trabalham" },
-      "passe": { "Eu": "trabalhei", "Tu": "trabalhaste", "Ele": "trabalhou", "Nós": "trabalhámos", "Vós": "trabalhastes", "Eles": "trabalharam" }
+      "passe": { "Eu": "trabalhei", "Tu": "trabalhaste", "Ele": "trabalhou", "Nós": "trabalhámos", "Vós": "trabalhastes", "Eles": "trabalharam" },
+      "imperfeito": { "Eu": "trabalhava", "Tu": "trabalhavas", "Ele": "trabalhava", "Nós": "trabalhávamos", "Vós": "trabalháveis", "Eles": "trabalhavam" }
     }
   },
   "comer": {
@@ -32,16 +35,18 @@
     "context": "uma maçã",
     "conjugaisons": {
       "present": { "Eu": "como", "Tu": "comes", "Ele": "come", "Nós": "comemos", "Vós": "comeis", "Eles": "comem" },
-      "passe": { "Eu": "comi", "Tu": "comeste", "Ele": "comeu", "Nós": "comemos", "Vós": "comestes", "Eles": "comeram" }
+      "passe": { "Eu": "comi", "Tu": "comeste", "Ele": "comeu", "Nós": "comemos", "Vós": "comestes", "Eles": "comeram" },
+      "imperfeito": { "Eu": "comia", "Tu": "comias", "Ele": "comia", "Nós": "comíamos", "Vós": "comíeis", "Eles": "comiam" }
     }
   },
   "beber": {
     "infinitif": "Beber",
     "group": "ER",
-    "context": "um copo de água",
+    "context": "un copo de água",
     "conjugaisons": {
       "present": { "Eu": "bebo", "Tu": "bebes", "Ele": "bebe", "Nós": "bebemos", "Vós": "bebeis", "Eles": "bebem" },
-      "passe": { "Eu": "bebi", "Tu": "bebeste", "Ele": "bebeu", "Nós": "bebermos", "Vós": "bebestes", "Eles": "beberam" }
+      "passe": { "Eu": "bebi", "Tu": "bebeste", "Ele": "bebeu", "Nós": "bebermos", "Vós": "bebestes", "Eles": "beberam" },
+      "imperfeito": { "Eu": "bebia", "Tu": "bebias", "Ele": "bebia", "Nós": "bebíamos", "Vós": "bebíeis", "Eles": "bebiam" }
     }
   },
   "aprender": {
@@ -50,7 +55,8 @@
     "context": "português",
     "conjugaisons": {
       "present": { "Eu": "aprendo", "Tu": "aprendes", "Ele": "aprende", "Nós": "aprendemos", "Vós": "aprendeis", "Eles": "aprendem" },
-      "passe": { "Eu": "aprendi", "Tu": "aprendeste", "Ele": "aprendeu", "Nós": "aprendemos", "Vós": "aprendestes", "Eles": "aprenderam" }
+      "passe": { "Eu": "aprendi", "Tu": "aprendeste", "Ele": "aprendeu", "Nós": "aprendemos", "Vós": "aprendestes", "Eles": "aprenderam" },
+      "imperfeito": { "Eu": "aprendia", "Tu": "aprendias", "Ele": "aprendia", "Nós": "aprendíamos", "Vós": "aprendíeis", "Eles": "aprendiam" }
     }
   },
   "abrir": {
@@ -59,7 +65,8 @@
     "context": "a porta",
     "conjugaisons": {
       "present": { "Eu": "abro", "Tu": "abres", "Ele": "abre", "Nós": "abrimos", "Vós": "abris", "Eles": "abrem" },
-      "passe": { "Eu": "abri", "Tu": "abriste", "Ele": "abriu", "Nós": "abrimos", "Vós": "abristes", "Eles": "abriram" }
+      "passe": { "Eu": "abri", "Tu": "abriste", "Ele": "abriu", "Nós": "abrimos", "Vós": "abristes", "Eles": "abriram" },
+      "imperfeito": { "Eu": "abria", "Tu": "abrias", "Ele": "abria", "Nós": "abríamos", "Vós": "abríeis", "Eles": "abriam" }
     }
   },
   "partir": {
@@ -68,7 +75,8 @@
     "context": "amanhã",
     "conjugaisons": {
       "present": { "Eu": "parto", "Tu": "partes", "Ele": "parte", "Nós": "partimos", "Vós": "partis", "Eles": "partem" },
-      "passe": { "Eu": "parti", "Tu": "partiste", "Ele": "partiu", "Nós": "partimos", "Vós": "partistes", "Eles": "partiram" }
+      "passe": { "Eu": "parti", "Tu": "partiste", "Ele": "partiu", "Nós": "partimos", "Vós": "partistes", "Eles": "partiram" },
+      "imperfeito": { "Eu": "partia", "Tu": "partias", "Ele": "partia", "Nós": "partíamos", "Vós": "partíeis", "Eles": "partiam" }
     }
   },
   "decidir": {
@@ -77,7 +85,8 @@
     "context": "agora",
     "conjugaisons": {
       "present": { "Eu": "decido", "Tu": "decides", "Ele": "decide", "Nós": "decidimos", "Vós": "decidis", "Eles": "decidem" },
-      "passe": { "Eu": "decidi", "Tu": "decidiste", "Ele": "decidiu", "Nós": "decidimos", "Vós": "decidistes", "Eles": "decidiram" }
+      "passe": { "Eu": "decidi", "Tu": "decidiste", "Ele": "decidiu", "Nós": "decidimos", "Vós": "decidistes", "Eles": "decidiram" },
+      "imperfeito": { "Eu": "decidia", "Tu": "decidias", "Ele": "decidia", "Nós": "decidíamos", "Vós": "decidíeis", "Eles": "decidiam" }
     }
   },
   "ser": {
@@ -86,7 +95,8 @@
     "context": "um bom aluno",
     "conjugaisons": {
       "present": { "Eu": "sou", "Tu": "és", "Ele": "é", "Nós": "somos", "Vós": "sois", "Eles": "são" },
-      "passe": { "Eu": "fui", "Tu": "foste", "Ele": "foi", "Nós": "fomos", "Vós": "fostes", "Eles": "foram" }
+      "passe": { "Eu": "fui", "Tu": "foste", "Ele": "foi", "Nós": "fomos", "Vós": "fostes", "Eles": "foram" },
+      "imperfeito": { "Eu": "era", "Tu": "eras", "Ele": "era", "Nós": "éramos", "Vós": "éreis", "Eles": "eram" }
     }
   },
   "estar": {
@@ -95,7 +105,8 @@
     "context": "em casa",
     "conjugaisons": {
       "present": { "Eu": "estou", "Tu": "estás", "Ele": "está", "Nós": "estamos", "Vós": "estais", "Eles": "estão" },
-      "passe": { "Eu": "estive", "Tu": "estiveste", "Ele": "esteve", "Nós": "estivemos", "Vós": "estivestes", "Eles": "estiveram" }
+      "passe": { "Eu": "estive", "Tu": "estiveste", "Ele": "esteve", "Nós": "estivemos", "Vós": "estivestes", "Eles": "estiveram" },
+      "imperfeito": { "Eu": "estava", "Tu": "estavas", "Ele": "estava", "Nós": "estávamos", "Vós": "estáveis", "Eles": "estavam" }
     }
   },
   "ter": {
@@ -104,7 +115,8 @@
     "context": "muito trabalho",
     "conjugaisons": {
       "present": { "Eu": "tenho", "Tu": "tens", "Ele": "tem", "Nós": "temos", "Vós": "tendes", "Eles": "têm" },
-      "passe": { "Eu": "tive", "Tu": "tiveste", "Ele": "teve", "Nós": "tivemos", "Vós": "tivestes", "Eles": "tiveram" }
+      "passe": { "Eu": "tive", "Tu": "tiveste", "Ele": "teve", "Nós": "tivemos", "Vós": "tivestes", "Eles": "tiveram" },
+      "imperfeito": { "Eu": "tinha", "Tu": "tinhas", "Ele": "tinha", "Nós": "tínhamos", "Vós": "tínheis", "Eles": "tinham" }
     }
   },
   "ir": {
@@ -113,7 +125,8 @@
     "context": "ao cinema",
     "conjugaisons": {
       "present": { "Eu": "vou", "Tu": "vais", "Ele": "vai", "Nós": "vamos", "Vós": "ides", "Eles": "vão" },
-      "passe": { "Eu": "fui", "Tu": "foste", "Ele": "foi", "Nós": "fomos", "Vós": "fostes", "Eles": "foram" }
+      "passe": { "Eu": "fui", "Tu": "foste", "Ele": "foi", "Nós": "fomos", "Vós": "fostes", "Eles": "foram" },
+      "imperfeito": { "Eu": "ia", "Tu": "ias", "Ele": "ia", "Nós": "íamos", "Vós": "íeis", "Eles": "iam" }
     }
   }
 }
