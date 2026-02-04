@@ -1,132 +1,298 @@
 {
   "falar": {
-    "infinitif": "Falar",
-    "group": "AR",
-    "context": "com o professor",
+    "infinitif": "Falar", "translation": "parler", "group": "AR", "context": "com o professor", "contextTranslation": "avec le professeur",
     "conjugaisons": {
-      "present": { "Eu": "falo", "Tu": "falas", "Ele": "fala", "Nós": "falamos", "Vós": "falais", "Eles": "falam" },
-      "passe": { "Eu": "falei", "Tu": "falaste", "Ele": "falou", "Nós": "falámos", "Vós": "falastes", "Eles": "falaram" },
-      "imperfeito": { "Eu": "falava", "Tu": "falavas", "Ele": "falava", "Nós": "falávamos", "Vós": "faláveis", "Eles": "falavam" }
+      "presente": { "Eu": "falo", "Tu": "falas", "Ele": "fala", "Nós": "falamos", "Vocês": "falam", "Eles": "falam" },
+      "perfeito": { "Eu": "falei", "Tu": "falaste", "Ele": "falou", "Nós": "falámos", "Vocês": "falaram", "Eles": "falaram" },
+      "imperfeito": { "Eu": "falava", "Tu": "falavas", "Ele": "falava", "Nós": "falávamos", "Vocês": "falavam", "Eles": "falavam" }
     }
   },
   "comprar": {
-    "infinitif": "Comprar",
-    "group": "AR",
-    "context": "um carro novo",
+    "infinitif": "Comprar", "translation": "acheter", "group": "AR", "context": "um carro novo", "contextTranslation": "une nouvelle voiture",
     "conjugaisons": {
-      "present": { "Eu": "compro", "Tu": "compras", "Ele": "compra", "Nós": "compramos", "Vós": "comprais", "Eles": "compram" },
-      "passe": { "Eu": "comprei", "Tu": "compreste", "Ele": "comprou", "Nós": "comprámos", "Vós": "comprestes", "Eles": "compraram" },
-      "imperfeito": { "Eu": "comprava", "Tu": "compravas", "Ele": "comprava", "Nós": "comprávamos", "Vós": "compráveis", "Eles": "compravam" }
+      "presente": { "Eu": "compro", "Tu": "compras", "Ele": "compra", "Nós": "compramos", "Vocês": "compram", "Eles": "compram" },
+      "perfeito": { "Eu": "comprei", "Tu": "compraste", "Ele": "comprou", "Nós": "comprámos", "Vocês": "compraram", "Eles": "compraram" },
+      "imperfeito": { "Eu": "comprava", "Tu": "compravas", "Ele": "comprava", "Nós": "compprávamos", "Vocês": "compravam", "Eles": "compravam" }
     }
   },
-  "trabalhar": {
-    "infinitif": "Trabalhar",
-    "group": "AR",
-    "context": "no escritório",
+  "ficar": {
+    "infinitif": "Ficar", "translation": "rester", "group": "AR", "context": "aqui", "contextTranslation": "ici",
     "conjugaisons": {
-      "present": { "Eu": "trabalho", "Tu": "trabalhas", "Ele": "trabalha", "Nós": "trabalhamos", "Vós": "trabalhais", "Eles": "trabalham" },
-      "passe": { "Eu": "trabalhei", "Tu": "trabalhaste", "Ele": "trabalhou", "Nós": "trabalhámos", "Vós": "trabalhastes", "Eles": "trabalharam" },
-      "imperfeito": { "Eu": "trabalhava", "Tu": "trabalhavas", "Ele": "trabalhava", "Nós": "trabalhávamos", "Vós": "trabalháveis", "Eles": "trabalhavam" }
+      "presente": { "Eu": "fico", "Tu": "ficas", "Ele": "fica", "Nós": "ficamos", "Vocês": "ficam", "Eles": "ficam" },
+      "perfeito": { "Eu": "fiquei", "Tu": "ficaste", "Ele": "ficou", "Nós": "ficámos", "Vocês": "ficaram", "Eles": "ficaram" },
+      "imperfeito": { "Eu": "ficava", "Tu": "ficavas", "Ele": "ficava", "Nós": "ficávamos", "Vocês": "ficavam", "Eles": "ficavam" }
+    }
+  },
+  "ajudar": {
+    "infinitif": "Ajudar", "translation": "aider", "group": "AR", "context": "a minha mãe", "contextTranslation": "ma mère",
+    "conjugaisons": {
+      "presente": { "Eu": "ajudo", "Tu": "ajudas", "Ele": "ajuda", "Nós": "ajudamos", "Vocês": "ajudam", "Eles": "ajudam" },
+      "perfeito": { "Eu": "ajudei", "Tu": "ajudaste", "Ele": "ajudou", "Nós": "ajudámos", "Vocês": "ajudaram", "Eles": "ajudaram" },
+      "imperfeito": { "Eu": "ajudava", "Tu": "ajudavas", "Ele": "ajudava", "Nós": "ajudávamos", "Vocês": "ajudavam", "Eles": "ajudavam" }
+    }
+  },
+  "cantar": {
+    "infinitif": "Cantar", "translation": "chanter", "group": "AR", "context": "uma canção", "contextTranslation": "une chanson",
+    "conjugaisons": {
+      "presente": { "Eu": "canto", "Tu": "cantas", "Ele": "canta", "Nós": "cantamos", "Vocês": "cantam", "Eles": "cantam" },
+      "perfeito": { "Eu": "cantei", "Tu": "cantaste", "Ele": "cantou", "Nós": "cantámos", "Vocês": "cantaram", "Eles": "cantaram" },
+      "imperfeito": { "Eu": "cantava", "Tu": "cantavas", "Ele": "cantava", "Nós": "cantávamos", "Vocês": "cantavam", "Eles": "cantavam" }
+    }
+  },
+  "achar": {
+    "infinitif": "Achar", "translation": "penser/trouver", "group": "AR", "context": "que sim", "contextTranslation": "que oui",
+    "conjugaisons": {
+      "presente": { "Eu": "acho", "Tu": "achas", "Ele": "acha", "Nós": "achamos", "Vocês": "acham", "Eles": "acham" },
+      "perfeito": { "Eu": "achei", "Tu": "achaste", "Ele": "achou", "Nós": "achámos", "Vocês": "acharam", "Eles": "acharam" },
+      "imperfeito": { "Eu": "achava", "Tu": "achavas", "Ele": "achava", "Nós": "achávamos", "Vocês": "achavam", "Eles": "achavam" }
+    }
+  },
+  "estudar": {
+    "infinitif": "Estudar", "translation": "étudier", "group": "AR", "context": "na biblioteca", "contextTranslation": "à la bibliothèque",
+    "conjugaisons": {
+      "presente": { "Eu": "estudo", "Tu": "estudas", "Ele": "estuda", "Nós": "estudamos", "Vocês": "estudam", "Eles": "estudam" },
+      "perfeito": { "Eu": "estudei", "Tu": "estudaste", "Ele": "estudou", "Nós": "estudámos", "Vocês": "estudaram", "Eles": "estudaram" },
+      "imperfeito": { "Eu": "estudava", "Tu": "estudavas", "Ele": "estudava", "Nós": "estudávamos", "Vocês": "estudavam", "Eles": "estudavam" }
+    }
+  },
+  "gostar": {
+    "infinitif": "Gostar", "translation": "aimer", "group": "AR", "context": "de chocolate", "contextTranslation": "le chocolat",
+    "conjugaisons": {
+      "presente": { "Eu": "gosto", "Tu": "gostas", "Ele": "gosta", "Nós": "gostamos", "Vocês": "gostam", "Eles": "gostam" },
+      "perfeito": { "Eu": "gostei", "Tu": "gostaste", "Ele": "gostou", "Nós": "gostámos", "Vocês": "gostaram", "Eles": "gostaram" },
+      "imperfeito": { "Eu": "gostava", "Tu": "gostavas", "Ele": "gostava", "Nós": "gostávamos", "Vocês": "gostavam", "Eles": "gostavam" }
     }
   },
   "comer": {
-    "infinitif": "Comer",
-    "group": "ER",
-    "context": "uma maçã",
+    "infinitif": "Comer", "translation": "manger", "group": "ER", "context": "uma maçã", "contextTranslation": "une pomme",
     "conjugaisons": {
-      "present": { "Eu": "como", "Tu": "comes", "Ele": "come", "Nós": "comemos", "Vós": "comeis", "Eles": "comem" },
-      "passe": { "Eu": "comi", "Tu": "comeste", "Ele": "comeu", "Nós": "comemos", "Vós": "comestes", "Eles": "comeram" },
-      "imperfeito": { "Eu": "comia", "Tu": "comias", "Ele": "comia", "Nós": "comíamos", "Vós": "comíeis", "Eles": "comiam" }
+      "presente": { "Eu": "como", "Tu": "comes", "Ele": "come", "Nós": "comemos", "Vocês": "comem", "Eles": "comem" },
+      "perfeito": { "Eu": "comi", "Tu": "comeste", "Ele": "comeu", "Nós": "comemos", "Vocês": "comeram", "Eles": "comeram" },
+      "imperfeito": { "Eu": "comia", "Tu": "comias", "Ele": "comia", "Nós": "comíamos", "Vocês": "comiam", "Eles": "comiam" }
     }
   },
   "beber": {
-    "infinitif": "Beber",
-    "group": "ER",
-    "context": "un copo de água",
+    "infinitif": "Beber", "translation": "boire", "group": "ER", "context": "um copo de água", "contextTranslation": "un verre d'eau",
     "conjugaisons": {
-      "present": { "Eu": "bebo", "Tu": "bebes", "Ele": "bebe", "Nós": "bebemos", "Vós": "bebeis", "Eles": "bebem" },
-      "passe": { "Eu": "bebi", "Tu": "bebeste", "Ele": "bebeu", "Nós": "bebermos", "Vós": "bebestes", "Eles": "beberam" },
-      "imperfeito": { "Eu": "bebia", "Tu": "bebias", "Ele": "bebia", "Nós": "bebíamos", "Vós": "bebíeis", "Eles": "bebiam" }
+      "presente": { "Eu": "bebo", "Tu": "bebes", "Ele": "bebe", "Nós": "bebemos", "Vocês": "bebem", "Eles": "bebem" },
+      "perfeito": { "Eu": "bebi", "Tu": "bebeste", "Ele": "bebeu", "Nós": "bebemos", "Vocês": "beberam", "Eles": "beberam" },
+      "imperfeito": { "Eu": "bebia", "Tu": "bebias", "Ele": "bebia", "Nós": "bebíamos", "Vocês": "bebiam", "Eles": "bebiam" }
     }
   },
   "aprender": {
-    "infinitif": "Aprender",
-    "group": "ER",
-    "context": "português",
+    "infinitif": "Aprender", "translation": "apprendre", "group": "ER", "context": "português", "contextTranslation": "le portugais",
     "conjugaisons": {
-      "present": { "Eu": "aprendo", "Tu": "aprendes", "Ele": "aprende", "Nós": "aprendemos", "Vós": "aprendeis", "Eles": "aprendem" },
-      "passe": { "Eu": "aprendi", "Tu": "aprendeste", "Ele": "aprendeu", "Nós": "aprendemos", "Vós": "aprendestes", "Eles": "aprenderam" },
-      "imperfeito": { "Eu": "aprendia", "Tu": "aprendias", "Ele": "aprendia", "Nós": "aprendíamos", "Vós": "aprendíeis", "Eles": "aprendiam" }
+      "presente": { "Eu": "aprendo", "Tu": "aprendes", "Ele": "aprende", "Nós": "aprendemos", "Vocês": "aprendem", "Eles": "aprendem" },
+      "perfeito": { "Eu": "aprendi", "Tu": "aprendeste", "Ele": "aprendeu", "Nós": "aprendemos", "Vocês": "aprenderam", "Eles": "aprenderam" },
+      "imperfeito": { "Eu": "aprendia", "Tu": "aprendias", "Ele": "aprendia", "Nós": "aprendíamos", "Vocês": "aprendiam", "Eles": "aprendiam" }
+    }
+  },
+  "correr": {
+    "infinitif": "Correr", "translation": "courir", "group": "ER", "context": "no parque", "contextTranslation": "dans le parc",
+    "conjugaisons": {
+      "presente": { "Eu": "corro", "Tu": "corres", "Ele": "corre", "Nós": "corremos", "Vocês": "correm", "Eles": "correm" },
+      "perfeito": { "Eu": "corri", "Tu": "correste", "Ele": "correu", "Nós": "corremos", "Vocês": "correram", "Eles": "correram" },
+      "imperfeito": { "Eu": "corria", "Tu": "corrias", "Ele": "corria", "Nós": "corríamos", "Vocês": "corriam", "Eles": "corriam" }
+    }
+  },
+  "escrever": {
+    "infinitif": "Escrever", "translation": "écrire", "group": "ER", "context": "uma carta", "contextTranslation": "une lettre",
+    "conjugaisons": {
+      "presente": { "Eu": "escrevo", "Tu": "escreves", "Ele": "escreve", "Nós": "escrevemos", "Vocês": "escrevem", "Eles": "escrevem" },
+      "perfeito": { "Eu": "escrevi", "Tu": "escreveste", "Ele": "escreveu", "Nós": "escrevemos", "Vocês": "escreveram", "Eles": "escreveram" },
+      "imperfeito": { "Eu": "escrevia", "Tu": "escrevias", "Ele": "escrevia", "Nós": "escrevíamos", "Vocês": "escreviam", "Eles": "escreviam" }
+    }
+  },
+  "vender": {
+    "infinitif": "Vender", "translation": "vendre", "group": "ER", "context": "a casa", "contextTranslation": "la maison",
+    "conjugaisons": {
+      "presente": { "Eu": "vendo", "Tu": "vendes", "Ele": "vende", "Nós": "vendemos", "Vocês": "vendem", "Eles": "vendem" },
+      "perfeito": { "Eu": "vendi", "Tu": "vendiste", "Ele": "vendeu", "Nós": "vendemos", "Vocês": "venderam", "Eles": "venderam" },
+      "imperfeito": { "Eu": "vendia", "Tu": "vendias", "Ele": "vendia", "Nós": "vendíamos", "Vocês": "vendiam", "Eles": "vendiam" }
+    }
+  },
+  "entender": {
+    "infinitif": "Entender", "translation": "comprendre", "group": "ER", "context": "a pergunta", "contextTranslation": "la question",
+    "conjugaisons": {
+      "presente": { "Eu": "entendo", "Tu": "entendes", "Ele": "entende", "Nós": "entendemos", "Vocês": "entendem", "Eles": "entendem" },
+      "perfeito": { "Eu": "entendi", "Tu": "entendeste", "Ele": "entendeu", "Nós": "entendemos", "Vocês": "entenderam", "Eles": "entenderam" },
+      "imperfeito": { "Eu": "entendia", "Tu": "entendias", "Ele": "entendia", "Nós": "entendíamos", "Vocês": "entendiam", "Eles": "entendiam" }
+    }
+  },
+  "viver": {
+    "infinitif": "Viver", "translation": "vivre", "group": "ER", "context": "em Portugal", "contextTranslation": "au Portugal",
+    "conjugaisons": {
+      "presente": { "Eu": "vivo", "Tu": "vives", "Ele": "vive", "Nós": "vivemos", "Vocês": "vivem", "Eles": "vivem" },
+      "perfeito": { "Eu": "vivi", "Tu": "viveste", "Ele": "viveu", "Nós": "vivemos", "Vocês": "viveram", "Eles": "viveram" },
+      "imperfeito": { "Eu": "vivia", "Tu": "vivias", "Ele": "vivia", "Nós": "vivíamos", "Vocês": "viviam", "Eles": "viviam" }
     }
   },
   "abrir": {
-    "infinitif": "Abrir",
-    "group": "IR",
-    "context": "a porta",
+    "infinitif": "Abrir", "translation": "ouvrir", "group": "IR", "context": "a porta", "contextTranslation": "la porte",
     "conjugaisons": {
-      "present": { "Eu": "abro", "Tu": "abres", "Ele": "abre", "Nós": "abrimos", "Vós": "abris", "Eles": "abrem" },
-      "passe": { "Eu": "abri", "Tu": "abriste", "Ele": "abriu", "Nós": "abrimos", "Vós": "abristes", "Eles": "abriram" },
-      "imperfeito": { "Eu": "abria", "Tu": "abrias", "Ele": "abria", "Nós": "abríamos", "Vós": "abríeis", "Eles": "abriam" }
+      "presente": { "Eu": "abro", "Tu": "abres", "Ele": "abre", "Nós": "abrimos", "Vocês": "abrem", "Eles": "abrem" },
+      "perfeito": { "Eu": "abri", "Tu": "abriste", "Ele": "abriu", "Nós": "abrimos", "Vocês": "abriram", "Eles": "abriram" },
+      "imperfeito": { "Eu": "abria", "Tu": "abrias", "Ele": "abria", "Nós": "abríamos", "Vocês": "abriam", "Eles": "abriam" }
     }
   },
   "partir": {
-    "infinitif": "Partir",
-    "group": "IR",
-    "context": "amanhã",
+    "infinitif": "Partir", "translation": "partir", "group": "IR", "context": "amanhã", "contextTranslation": "demain",
     "conjugaisons": {
-      "present": { "Eu": "parto", "Tu": "partes", "Ele": "parte", "Nós": "partimos", "Vós": "partis", "Eles": "partem" },
-      "passe": { "Eu": "parti", "Tu": "partiste", "Ele": "partiu", "Nós": "partimos", "Vós": "partistes", "Eles": "partiram" },
-      "imperfeito": { "Eu": "partia", "Tu": "partias", "Ele": "partia", "Nós": "partíamos", "Vós": "partíeis", "Eles": "partiam" }
+      "presente": { "Eu": "parto", "Tu": "partes", "Ele": "parte", "Nós": "partimos", "Vocês": "partem", "Eles": "partem" },
+      "perfeito": { "Eu": "parti", "Tu": "partiste", "Ele": "partiu", "Nós": "partimos", "Vocês": "partiram", "Eles": "partiram" },
+      "imperfeito": { "Eu": "partia", "Tu": "partias", "Ele": "partia", "Nós": "partíamos", "Vocês": "partiam", "Eles": "partiam" }
+    }
+  },
+  "dividir": {
+    "infinitif": "Dividir", "translation": "diviser", "group": "IR", "context": "a conta", "contextTranslation": "l'addition",
+    "conjugaisons": {
+      "presente": { "Eu": "divido", "Tu": "divides", "Ele": "divide", "Nós": "dividimos", "Vocês": "dividem", "Eles": "dividem" },
+      "perfeito": { "Eu": "dividi", "Tu": "dividiste", "Ele": "dividiu", "Nós": "dividimos", "Vocês": "dividiram", "Eles": "dividiram" },
+      "imperfeito": { "Eu": "dividia", "Tu": "dividias", "Ele": "dividia", "Nós": "dividíamos", "Vocês": "dividiam", "Eles": "dividiam" }
     }
   },
   "decidir": {
-    "infinitif": "Decidir",
-    "group": "IR",
-    "context": "agora",
+    "infinitif": "Decidir", "translation": "décider", "group": "IR", "context": "agora", "contextTranslation": "maintenant",
     "conjugaisons": {
-      "present": { "Eu": "decido", "Tu": "decides", "Ele": "decide", "Nós": "decidimos", "Vós": "decidis", "Eles": "decidem" },
-      "passe": { "Eu": "decidi", "Tu": "decidiste", "Ele": "decidiu", "Nós": "decidimos", "Vós": "decidistes", "Eles": "decidiram" },
-      "imperfeito": { "Eu": "decidia", "Tu": "decidias", "Ele": "decidia", "Nós": "decidíamos", "Vós": "decidíeis", "Eles": "decidiam" }
+      "presente": { "Eu": "decido", "Tu": "decides", "Ele": "decide", "Nós": "decidimos", "Vocês": "decidem", "Eles": "decidem" },
+      "perfeito": { "Eu": "decidi", "Tu": "decidiste", "Ele": "decidiu", "Nós": "decidimos", "Vocês": "decidiram", "Eles": "decidiram" },
+      "imperfeito": { "Eu": "decidia", "Tu": "decidias", "Ele": "decidia", "Nós": "decidíamos", "Vocês": "decidiam", "Eles": "decidiam" }
+    }
+  },
+  "assistir": {
+    "infinitif": "Assistir", "translation": "regarder", "group": "IR", "context": "à televisão", "contextTranslation": "la télévision",
+    "conjugaisons": {
+      "presente": { "Eu": "assisto", "Tu": "assistes", "Ele": "assiste", "Nós": "assistimos", "Vocês": "assistem", "Eles": "assistem" },
+      "perfeito": { "Eu": "assisti", "Tu": "assististe", "Ele": "assistiu", "Nós": "assistimos", "Vocês": "assistiram", "Eles": "assistiram" },
+      "imperfeito": { "Eu": "assistia", "Tu": "assistias", "Ele": "assistia", "Nós": "assistíamos", "Vocês": "assistiam", "Eles": "assistiam" }
+    }
+  },
+  "desistir": {
+    "infinitif": "Desistir", "translation": "abandonner", "group": "IR", "context": "do curso", "contextTranslation": "du cours",
+    "conjugaisons": {
+      "presente": { "Eu": "desisto", "Tu": "desistes", "Ele": "desiste", "Nós": "desistimos", "Vocês": "desistem", "Eles": "desistem" },
+      "perfeito": { "Eu": "desisti", "Tu": "desististe", "Ele": "desistiu", "Nós": "desistimos", "Vocês": "desistiram", "Eles": "desistiram" },
+      "imperfeito": { "Eu": "desistia", "Tu": "desistias", "Ele": "desistia", "Nós": "desistíamos", "Vocês": "desistiam", "Eles": "desistiam" }
+    }
+  },
+  "permitir": {
+    "infinitif": "Permitir", "translation": "permettre", "group": "IR", "context": "a entrada", "contextTranslation": "l'entrée",
+    "conjugaisons": {
+      "presente": { "Eu": "permito", "Tu": "permites", "Ele": "permite", "Nós": "permitimos", "Vocês": "permitem", "Eles": "permitem" },
+      "perfeito": { "Eu": "permiti", "Tu": "permitiste", "Ele": "permitiu", "Nós": "permitimos", "Vocês": "permitiram", "Eles": "permitiram" },
+      "imperfeito": { "Eu": "permitia", "Tu": "permitias", "Ele": "permitia", "Nós": "permitíamos", "Vocês": "permitiam", "Eles": "permitiam" }
+    }
+  },
+  "pedir": {
+    "infinitif": "Pedir", "translation": "demander", "group": "IR", "context": "uma pizza", "contextTranslation": "une pizza",
+    "conjugaisons": {
+      "presente": { "Eu": "peço", "Tu": "pedes", "Ele": "pede", "Nós": "pedimos", "Vocês": "pedem", "Eles": "pedem" },
+      "perfeito": { "Eu": "pedi", "Tu": "pediste", "Ele": "pediu", "Nós": "pedimos", "Vocês": "pediram", "Eles": "pediram" },
+      "imperfeito": { "Eu": "pedia", "Tu": "pedias", "Ele": "pedia", "Nós": "pedíamos", "Vocês": "pediam", "Eles": "pediam" }
     }
   },
   "ser": {
-    "infinitif": "Ser",
-    "group": "IRREGULAR",
-    "context": "um bom aluno",
+    "infinitif": "Ser", "translation": "être", "group": "IRREGULAR", "context": "um bom aluno", "contextTranslation": "un bon élève",
     "conjugaisons": {
-      "present": { "Eu": "sou", "Tu": "és", "Ele": "é", "Nós": "somos", "Vós": "sois", "Eles": "são" },
-      "passe": { "Eu": "fui", "Tu": "foste", "Ele": "foi", "Nós": "fomos", "Vós": "fostes", "Eles": "foram" },
-      "imperfeito": { "Eu": "era", "Tu": "eras", "Ele": "era", "Nós": "éramos", "Vós": "éreis", "Eles": "eram" }
+      "presente": { "Eu": "sou", "Tu": "és", "Ele": "é", "Nós": "somos", "Vocês": "são", "Eles": "são" },
+      "perfeito": { "Eu": "fui", "Tu": "foste", "Ele": "foi", "Nós": "fomos", "Vocês": "foram", "Eles": "foram" },
+      "imperfeito": { "Eu": "era", "Tu": "eras", "Ele": "era", "Nós": "éramos", "Vocês": "eram", "Eles": "eram" }
     }
   },
   "estar": {
-    "infinitif": "Estar",
-    "group": "IRREGULAR",
-    "context": "em casa",
+    "infinitif": "Estar", "translation": "être (état)", "group": "IRREGULAR", "context": "em casa", "contextTranslation": "à la maison",
     "conjugaisons": {
-      "present": { "Eu": "estou", "Tu": "estás", "Ele": "está", "Nós": "estamos", "Vós": "estais", "Eles": "estão" },
-      "passe": { "Eu": "estive", "Tu": "estiveste", "Ele": "esteve", "Nós": "estivemos", "Vós": "estivestes", "Eles": "estiveram" },
-      "imperfeito": { "Eu": "estava", "Tu": "estavas", "Ele": "estava", "Nós": "estávamos", "Vós": "estáveis", "Eles": "estavam" }
+      "presente": { "Eu": "estou", "Tu": "estás", "Ele": "está", "Nós": "estamos", "Vocês": "estão", "Eles": "estão" },
+      "perfeito": { "Eu": "estive", "Tu": "estiveste", "Ele": "esteve", "Nós": "estivemos", "Vocês": "estiveram", "Eles": "estiveram" },
+      "imperfeito": { "Eu": "estava", "Tu": "estavas", "Ele": "estava", "Nós": "estávamos", "Vocês": "estavam", "Eles": "estavam" }
     }
   },
   "ter": {
-    "infinitif": "Ter",
-    "group": "IRREGULAR",
-    "context": "muito trabalho",
+    "infinitif": "Ter", "translation": "avoir", "group": "IRREGULAR", "context": "muito trabalho", "contextTranslation": "beaucoup de travail",
     "conjugaisons": {
-      "present": { "Eu": "tenho", "Tu": "tens", "Ele": "tem", "Nós": "temos", "Vós": "tendes", "Eles": "têm" },
-      "passe": { "Eu": "tive", "Tu": "tiveste", "Ele": "teve", "Nós": "tivemos", "Vós": "tivestes", "Eles": "tiveram" },
-      "imperfeito": { "Eu": "tinha", "Tu": "tinhas", "Ele": "tinha", "Nós": "tínhamos", "Vós": "tínheis", "Eles": "tinham" }
+      "presente": { "Eu": "tenho", "Tu": "tens", "Ele": "tem", "Nós": "temos", "Vocês": "têm", "Eles": "têm" },
+      "perfeito": { "Eu": "tive", "Tu": "tiveste", "Ele": "teve", "Nós": "tivemos", "Vocês": "tiveram", "Eles": "tiveram" },
+      "imperfeito": { "Eu": "tinha", "Tu": "tinhas", "Ele": "tinha", "Nós": "tínhamos", "Vocês": "tinham", "Eles": "tinham" }
     }
   },
   "ir": {
-    "infinitif": "Ir",
-    "group": "IRREGULAR",
-    "context": "ao cinema",
+    "infinitif": "Ir", "translation": "aller", "group": "IRREGULAR", "context": "ao cinema", "contextTranslation": "au cinéma",
     "conjugaisons": {
-      "present": { "Eu": "vou", "Tu": "vais", "Ele": "vai", "Nós": "vamos", "Vós": "ides", "Eles": "vão" },
-      "passe": { "Eu": "fui", "Tu": "foste", "Ele": "foi", "Nós": "fomos", "Vós": "fostes", "Eles": "foram" },
-      "imperfeito": { "Eu": "ia", "Tu": "ias", "Ele": "ia", "Nós": "íamos", "Vós": "íeis", "Eles": "iam" }
+      "presente": { "Eu": "vou", "Tu": "vais", "Ele": "vai", "Nós": "vamos", "Vocês": "vão", "Eles": "vão" },
+      "perfeito": { "Eu": "fui", "Tu": "foste", "Ele": "foi", "Nós": "fomos", "Vocês": "foram", "Eles": "foram" },
+      "imperfeito": { "Eu": "ia", "Tu": "ias", "Ele": "ia", "Nós": "íamos", "Vocês": "iam", "Eles": "iam" }
+    }
+  },
+  "fazer": {
+    "infinitif": "Fazer", "translation": "faire", "group": "IRREGULAR", "context": "o almoço", "contextTranslation": "le déjeuner",
+    "conjugaisons": {
+      "presente": { "Eu": "faço", "Tu": "fazes", "Ele": "faz", "Nós": "fazemos", "Vocês": "fazem", "Eles": "fazem" },
+      "perfeito": { "Eu": "fiz", "Tu": "fizeste", "Ele": "fez", "Nós": "fizemos", "Vocês": "fizeram", "Eles": "fizeram" },
+      "imperfeito": { "Eu": "fazia", "Tu": "fazias", "Ele": "fazia", "Nós": "fazíamos", "Vocês": "faziam", "Eles": "faziam" }
+    }
+  },
+  "dizer": {
+    "infinitif": "Dizer", "translation": "dire", "group": "IRREGULAR", "context": "a verdade", "contextTranslation": "la vérité",
+    "conjugaisons": {
+      "presente": { "Eu": "digo", "Tu": "dizes", "Ele": "diz", "Nós": "dizemos", "Vocês": "dizem", "Eles": "dizem" },
+      "perfeito": { "Eu": "disse", "Tu": "disseste", "Ele": "disse", "Nós": "dissemos", "Vocês": "disseram", "Eles": "disseram" },
+      "imperfeito": { "Eu": "dizia", "Tu": "dizias", "Ele": "dizia", "Nós": "dizíamos", "Vocês": "diziam", "Eles": "diziam" }
+    }
+  },
+  "poder": {
+    "infinitif": "Poder", "translation": "pouvoir", "group": "IRREGULAR", "context": "entrar", "contextTranslation": "entrer",
+    "conjugaisons": {
+      "presente": { "Eu": "posso", "Tu": "podes", "Ele": "pode", "Nós": "podemos", "Vocês": "podem", "Eles": "podem" },
+      "perfeito": { "Eu": "pude", "Tu": "pudeste", "Ele": "pôde", "Nós": "pudemos", "Vocês": "puderam", "Eles": "puderam" },
+      "imperfeito": { "Eu": "podia", "Tu": "podias", "Ele": "podia", "Nós": "podíamos", "Vocês": "podiam", "Eles": "podiam" }
+    }
+  },
+  "querer": {
+    "infinitif": "Querer", "translation": "vouloir", "group": "IRREGULAR", "context": "um café", "contextTranslation": "un café",
+    "conjugaisons": {
+      "presente": { "Eu": "quero", "Tu": "queres", "Ele": "quer", "Nós": "queremos", "Vocês": "querem", "Eles": "querem" },
+      "perfeito": { "Eu": "quis", "Tu": "quiseste", "Ele": "quis", "Nós": "quisemos", "Vocês": "quiseram", "Eles": "quiseram" },
+      "imperfeito": { "Eu": "queria", "Tu": "querias", "Ele": "queria", "Nós": "queríamos", "Vocês": "queriam", "Eles": "queriam" }
+    }
+  },
+  "saber": {
+    "infinitif": "Saber", "translation": "savoir", "group": "IRREGULAR", "context": "nadar", "contextTranslation": "nager",
+    "conjugaisons": {
+      "presente": { "Eu": "sei", "Tu": "sabes", "Ele": "sabe", "Nós": "sabemos", "Vocês": "sabem", "Eles": "sabem" },
+      "perfeito": { "Eu": "soube", "Tu": "soubeste", "Ele": "soube", "Nós": "soubemos", "Vocês": "souberam", "Eles": "souberam" },
+      "imperfeito": { "Eu": "sabia", "Tu": "sabias", "Ele": "sabia", "Nós": "sabíamos", "Vocês": "sabiam", "Eles": "sabiam" }
+    }
+  },
+  "ver": {
+    "infinitif": "Ver", "translation": "voir", "group": "IRREGULAR", "context": "um filme", "contextTranslation": "un film",
+    "conjugaisons": {
+      "presente": { "Eu": "vejo", "Tu": "vês", "Ele": "vê", "Nós": "vemos", "Vocês": "veem", "Eles": "veem" },
+      "perfeito": { "Eu": "vi", "Tu": "viste", "Ele": "viu", "Nós": "vimos", "Vocês": "viram", "Eles": "viram" },
+      "imperfeito": { "Eu": "via", "Tu": "vias", "Ele": "via", "Nós": "víamos", "Vocês": "viam", "Eles": "viam" }
+    }
+  },
+  "vir": {
+    "infinitif": "Vir", "translation": "venir", "group": "IRREGULAR", "context": "de Paris", "contextTranslation": "de Paris",
+    "conjugaisons": {
+      "presente": { "Eu": "venho", "Tu": "vens", "Ele": "vem", "Nós": "vimos", "Vocês": "vêm", "Eles": "vêm" },
+      "perfeito": { "Eu": "vim", "Tu": "vieste", "Ele": "veio", "Nós": "viemos", "Vocês": "vieram", "Eles": "vieram" },
+      "imperfeito": { "Eu": "vinha", "Tu": "vinhas", "Ele": "vinha", "Nós": "vínhamos", "Vocês": "vinham", "Eles": "vinham" }
+    }
+  },
+  "trazer": {
+    "infinitif": "Trazer", "translation": "apporter", "group": "IRREGULAR", "context": "o pão", "contextTranslation": "le pain",
+    "conjugaisons": {
+      "presente": { "Eu": "trago", "Tu": "trazes", "Ele": "traz", "Nós": "trazemos", "Vocês": "trazem", "Eles": "trazem" },
+      "perfeito": { "Eu": "trouxe", "Tu": "trouxeste", "Ele": "trouxe", "Nós": "trouxemos", "Vocês": "trouxeram", "Eles": "trouxeram" },
+      "imperfeito": { "Eu": "trazia", "Tu": "trazias", "Ele": "trazia", "Nós": "trazíamos", "Vocês": "traziam", "Eles": "traziam" }
+    }
+  },
+  "sair": {
+    "infinitif": "Sair", "translation": "sortir", "group": "IRREGULAR", "context": "à noite", "contextTranslation": "le soir",
+    "conjugaisons": {
+      "presente": { "Eu": "saio", "Tu": "sais", "Ele": "sai", "Nós": "saímos", "Vocês": "saem", "Eles": "saem" },
+      "perfeito": { "Eu": "saí", "Tu": "saíste", "Ele": "saiu", "Nós": "saímos", "Vocês": "saíram", "Eles": "saíram" },
+      "imperfeito": { "Eu": "saía", "Tu": "saías", "Ele": "saía", "Nós": "saíamos", "Vocês": "saíam", "Eles": "saíam" }
     }
   }
 }

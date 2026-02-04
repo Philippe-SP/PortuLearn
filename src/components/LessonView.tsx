@@ -84,11 +84,8 @@ const LessonView: React.FC<LessonViewProps> = ({ data }) => {
 
   // --- RENDU : FIN DE LEÇON ---
   if (isFinished) {
-    // On récupère la liste des leçons déjà réussies (ou un tableau vide si c'est la première)
     const completed = JSON.parse(localStorage.getItem('completed_lessons') || '[]');
-    const totalQuestions = shuffledExercises.length;
 
-    // On ajoute l'ID actuel s'il n'y est pas déjà
     if (!completed.includes(data.id)) {
       completed.push(data.id);
       localStorage.setItem('completed_lessons', JSON.stringify(completed));
@@ -129,11 +126,8 @@ const LessonView: React.FC<LessonViewProps> = ({ data }) => {
           )}
           <button
             onClick={() => {
-              // 1. On débloque l'audio pour iOS/Android avec un son vide
               const utterance = new SpeechSynthesisUtterance("");
               window.speechSynthesis.speak(utterance);
-              
-              // 2. On passe au mode Quiz
               setIsQuizMode(true);
             }}
             className="w-full mt-8 bg-[#006600] text-white py-4 rounded-2xl font-black text-lg"
@@ -151,31 +145,50 @@ const LessonView: React.FC<LessonViewProps> = ({ data }) => {
             ></div>
           </div>
 
-          {/* LOGIQUE DE SÉLECTION D'EXERCICE */}
-          {currentDisplayType === 'input' ? (
-            <QuizTypeInput 
-              key={`input-${currentIndex}`} // La "key" force React à bien séparer les composants
-              exercise={currentExercice as any} 
-              feedback={feedback} 
-              onAnswer={handleAnswer} 
-            />
-          ) : (
-            <QuizTypeQCM 
-              key={`qcm-${currentIndex}`}
-              exercise={currentExercice as any} 
-              feedback={feedback} 
-              onAnswer={handleAnswer} 
-            />
-          )}
+          <div className="space-y-4">
+            {/* LOGIQUE DE SÉLECTION D'EXERCICE */}
+            {currentDisplayType === 'input' ? (
+              <QuizTypeInput 
+                key={`input-${currentIndex}`}
+                exercise={currentExercice as any} 
+                feedback={feedback} 
+                onAnswer={handleAnswer} 
+              />
+            ) : (
+              <QuizTypeQCM 
+                key={`qcm-${currentIndex}`}
+                exercise={currentExercice as any} 
+                feedback={feedback} 
+                onAnswer={handleAnswer} 
+              />
+            )}
+
+            {/* TRADUCTION AVEC TROU (Affichée dès le début) */}
+            {!feedback && currentExercice.translation && (
+              <p className="text-center text-sm text-gray-400 italic">
+                "{currentExercice.translation}"
+              </p>
+            )}
+          </div>
 
           {/* FEEDBACK ET BOUTON SUIVANT */}
           {feedback && (
             <div className={`p-4 rounded-lg text-center font-bold ${
               feedback === 'correct' ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700 animate-shake'
             }`}>
-              {feedback === 'correct' ? 'Muito bien! 🎉' : 'Errado... Tenta outra vez! ❌'}
+              <div className="mb-1">
+                {feedback === 'correct' ? 'Muito bien! 🎉' : 'Errado... Tenta outra vez! ❌'}
+              </div>
+              
+              {/* TRADUCTION COMPLÉTÉE AU SUCCÈS */}
+              {feedback === 'correct' && currentExercice.translation && (
+                <div className="text-sm font-normal italic text-green-600 mb-2 opacity-80 border-t border-green-200 pt-2 mt-2">
+                  Traduction : {currentExercice.translation.replace('___', `(${currentExercice.correctAnswer})`)}
+                </div>
+              )}
+
               {feedback === 'correct' && (
-                <button onClick={nextQuestion} className="block w-full mt-3 bg-green-600 text-white py-2 rounded-lg">
+                <button onClick={nextQuestion} className="block w-full mt-3 bg-green-600 text-white py-2 rounded-lg font-bold transition-transform active:scale-95">
                   Continuer
                 </button>
               )}

@@ -29,6 +29,15 @@ function App() {
     { id: 'estar', label: 'Verbe ESTAR', isSingle: true },
     { id: 'ter', label: 'Verbe TER', isSingle: true },
     { id: 'ir', label: 'Verbe IR', isSingle: true },
+    { id: 'fazer', label: 'Verbe FAZER', isSingle: true },
+    { id: 'dizer', label: 'Verbe DIZER', isSingle: true },
+    { id: 'poder', label: 'Verbe PODER', isSingle: true },
+    { id: 'querer', label: 'Verbe QUERER', isSingle: true },
+    { id: 'saber', label: 'Verbe SABER', isSingle: true },
+    { id: 'ver', label: 'Verbe VER', isSingle: true },
+    { id: 'vir', label: 'Verbe VIR', isSingle: true },
+    { id: 'trazer', label: 'Verbe TRAZER', isSingle: true },
+    { id: 'sair', label: 'Verbe SAIR', isSingle: true }
   ];
 
   // Gestion des thèmes visuels par onglet
@@ -63,8 +72,8 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-50 font-sans text-gray-900">
-      <header className="bg-white shadow-md">
+    <div className="min-h-screen bg-slate-50 font-sans text-gray-900 pb-10">
+      <header className="bg-white shadow-md sticky top-0 z-50">
         <div className="h-2 flex">
           <div className="flex-1 bg-[#006600]"></div>
           <div className="flex-1 bg-[#FF0000]"></div>
@@ -79,10 +88,15 @@ function App() {
 
       <main className="p-4 max-w-md mx-auto">
         {!selectedLesson ? (
-          <div className="space-y-8 animate-fade-in">
+          <div className="space-y-10 animate-fade-in">
             
             <section className="space-y-4">
-              <h2 className="text-xs font-black text-gray-400 uppercase tracking-widest ml-2">Gramática</h2>
+              {/* TITRE MODIFIÉ : GRAMÁTICA */}
+              <div className="flex items-center gap-3 px-2 mb-6">
+                <span className="text-xl">📖</span>
+                <h2 className="text-sm font-black text-slate-900 uppercase tracking-widest">Gramática</h2>
+                <div className="flex-1 h-[2px] bg-slate-200 rounded-full"></div>
+              </div>
               
               {/* NAVIGATION PAR ONGLETS */}
               <div className="flex p-1 bg-gray-200 rounded-xl mb-4 overflow-x-auto no-scrollbar">
@@ -109,9 +123,13 @@ function App() {
 
               {/* LISTE DYNAMIQUE FILTRÉE */}
               {/* Verbes réguliers */}
-              <div className="space-y-6"> 
+              <div className="space-y-8"> 
                 <div className="space-y-3">
-                  <h3 className="text-[10px] font-bold text-gray-400 uppercase ml-2 italic">Verbos Regulares</h3>
+                  {/* TITRE MODIFIÉ : VERBOS REGULARES */}
+                  <h3 className="flex items-center gap-2 text-[10px] font-black text-slate-400 uppercase ml-2 tracking-wider italic">
+                    <span className="w-1.5 h-1.5 rounded-full bg-slate-300"></span>
+                    Verbos Regulares
+                  </h3>
                   <div className="grid grid-cols-1 gap-3">
                     {REGULAR_CONFIG.map(renderVerbButton)}
                   </div>
@@ -119,8 +137,12 @@ function App() {
 
                 {/* Verbes irréguliers */}
                 <div className="space-y-3">
-                  <h3 className="text-[10px] font-bold text-gray-400 uppercase ml-2 italic">Verbos Irregulares</h3>
-                  <div className="grid grid-cols-1 gap-3">
+                  {/* TITRE MODIFIÉ : VERBOS IRREGULARES */}
+                  <h3 className="flex items-center gap-2 text-[10px] font-black text-slate-400 uppercase ml-2 tracking-wider italic">
+                    <span className="w-1.5 h-1.5 rounded-full bg-orange-400"></span>
+                    Verbos Irregulares
+                  </h3>
+                  <div className="grid grid-cols-2 gap-3">
                     {IRREGULAR_CONFIG.map(renderVerbButton)}
                   </div>
                 </div>
@@ -128,8 +150,14 @@ function App() {
             </section>
 
             {/* SECTION VOCABULAIRE */}
-            <section className="space-y-4">
-              <h2 className="text-xs font-black text-gray-400 uppercase tracking-widest ml-2">Vocabulário</h2>
+            <section className="space-y-4 pt-4">
+              {/* TITRE MODIFIÉ : VOCABULÁRIO */}
+              <div className="flex items-center gap-3 px-2 mb-6">
+                <span className="text-xl">📙</span>
+                <h2 className="text-sm font-black text-slate-900 uppercase tracking-widest">Vocabulário</h2>
+                <div className="flex-1 h-[2px] bg-slate-200 rounded-full"></div>
+              </div>
+
               <div className="grid grid-cols-2 gap-3"> {/* Ici on passe en 2 colonnes */}
                 {vocabularyLessons.map((lesson) => {
                   const isDone = completedIds.includes(lesson.data.id);

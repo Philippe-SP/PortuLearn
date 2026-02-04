@@ -3,10 +3,25 @@ import type { Exercise, Lesson, Rule } from '../types';
 
 interface VerbEntry {
   infinitif: string;
-  group: string;
+  translation?: string;
   context: string;
+  contextTranslation?: string;
+  group: string;
   conjugaisons: Record<string, Record<string, string>>;
 }
+
+// Traduction des pronoms
+const pronounTranslations: Record<string, string> = {
+  "Eu": "Je",
+  "Tu": "Tu",
+  "Ele": "Il",
+  "Ela": "Elle",
+  "Você": "Vous (sing.)",
+  "Nós": "Nous",
+  "Vocês": "Vous (plur.)",
+  "Eles": "Ils",
+  "Elas": "Elles",
+};
 
 // Récupération des verbes dans verbs.json
 const verbsData = verbsDataRaw as Record<string, VerbEntry>;
@@ -27,7 +42,6 @@ export const createDynamicLesson = (identifier: string, tense: string, isSingleV
     }
 
   // --- BLOC GENERATION FUTUR PROCHE ---
-  // Si le temps demandé est 'futuro_proximo', on injecte les données dynamiquement pour éviter de saturer le fichier verbs.json
   const processedVerbs = filteredVerbs.map(verb => {
     if (tense === 'futuro_proximo') {
       return {
@@ -39,7 +53,7 @@ export const createDynamicLesson = (identifier: string, tense: string, isSingleV
             "Tu": `vais ${verb.infinitif.toLowerCase()}`,
             "Ele": `vai ${verb.infinitif.toLowerCase()}`,
             "Nós": `vamos ${verb.infinitif.toLowerCase()}`,
-            "Vós": `ides ${verb.infinitif.toLowerCase()}`,
+            "Vocês": `vão ${verb.infinitif.toLowerCase()}`,
             "Eles": `vão ${verb.infinitif.toLowerCase()}`
           }
         }
@@ -60,13 +74,10 @@ export const createDynamicLesson = (identifier: string, tense: string, isSingleV
   const rules: Rule[] = Object.entries(conj).map(([p, v]) => {
     let suffix = "";
     if (!isSingleVerb) {
-      // --- Gestion des suffixes pour le futur proche ---
       if (tense === 'futuro_proximo') {
         suffix = v.split(" ")[0]; 
       } 
-      // --- Gestion des suffixes pour l'Imparfait ---
       else if (tense === 'imperfeito') {
-        // -ava pour les AR (3 lettres), -ia pour les ER/IR (2 lettres)
         suffix = (exampleVerb.group === "AR") ? v.slice(-3) : v.slice(-2);
       } 
       else {
@@ -81,19 +92,28 @@ export const createDynamicLesson = (identifier: string, tense: string, isSingleV
   processedVerbs.forEach((verb) => {
     const vConj = verb.conjugaisons[tense];
     Object.entries(vConj).forEach(([pronoun, correct]) => {
-      const options = Object.values(vConj)
-        .filter(val => val !== correct)
-        .sort(() => Math.random() - 0.5)
-        .slice(0, 3);
+        
+        // --- LOGIQUE DES OPTIONS  ---
+        const options = Object.values(vConj)
+          .filter(val => val !== correct)
+          .sort(() => Math.random() - 0.5)
+          .slice(0, 3);
 
-      allPossibleExercises.push({
-        id: `gen-${tense}-${verb.infinitif}-${pronoun}`,
-        title: `${pronoun} ___ ${verb.context}. (${verb.infinitif})`,
-        category: "Conjugaison",
-        type: Math.random() > 0.6 ? 'input' : 'qcm',
-        options: [correct, ...options].sort(),
-        correctAnswer: correct
-      });
+        // 1. Traduction du pronom
+        const frPronoun = pronounTranslations[pronoun] || pronoun;
+        
+        // 2. Phrase avec trou
+        const frTranslation = `${frPronoun} ___ ${verb.contextTranslation || ''} (${verb.translation || ''})`.trim();
+
+        allPossibleExercises.push({
+            id: `gen-${tense}-${verb.infinitif}-${pronoun}`,
+            title: `${pronoun} ___ ${verb.context}. (${verb.infinitif})`,
+            translation: frTranslation, 
+            category: "Conjugaison",
+            type: Math.random() > 0.6 ? 'input' : 'qcm',
+            options: [correct, ...options].sort(),
+            correctAnswer: correct
+        });
     });
   });
 
@@ -101,7 +121,6 @@ export const createDynamicLesson = (identifier: string, tense: string, isSingleV
     .sort(() => Math.random() - 0.5)
     .slice(0, 8); 
 
-  // --- Titres propres pour tous les temps ---
   const tenseNames: Record<string, string> = {
     presente: 'Presente',
     perfeito: 'Pretérito Perfeito',
@@ -109,16 +128,14 @@ export const createDynamicLesson = (identifier: string, tense: string, isSingleV
     futuro_proximo: 'Futuro Próximo'
   };
   const displayTense = tenseNames[tense] || tense;
-  // ------------------------------------------------------
 
   return {
     id: `dynamic-${identifier}-${tense}`,
     title: isSingleVerb ? `Verbo ${exampleVerb.infinitif}` : `Verbos em -${identifier} (${displayTense})`,
     category: "Conjugaison",
     theory: {
-      // Description dynamique
       description: isSingleVerb 
-        ? `Apprends le verbe ${exampleVerb.infinitif} au ${displayTense}.`
+        ? `Apprends le verbe ${exampleVerb.infinitif} (${exampleVerb.translation}) au ${displayTense}.`
         : `Entraîne-toi sur les verbes du groupe ${identifier} au ${displayTense}.`,
       rules: rules
     },

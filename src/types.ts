@@ -12,6 +12,7 @@ export interface VocabItem {
 export interface Exercise {
   id: string;
   title: string;
+  translation?: string;
   category: string;
   type?: 'qcm' | 'input';
   options: string[];
