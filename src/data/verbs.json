@@ -1,0 +1,119 @@
+{
+  "falar": {
+    "infinitif": "Falar",
+    "group": "AR",
+    "context": "com o professor",
+    "conjugaisons": {
+      "present": { "Eu": "falo", "Tu": "falas", "Ele": "fala", "Nós": "falamos", "Vós": "falais", "Eles": "falam" },
+      "passe": { "Eu": "falei", "Tu": "falaste", "Ele": "falou", "Nós": "falámos", "Vós": "falastes", "Eles": "falaram" }
+    }
+  },
+  "comprar": {
+    "infinitif": "Comprar",
+    "group": "AR",
+    "context": "um carro novo",
+    "conjugaisons": {
+      "present": { "Eu": "compro", "Tu": "compras", "Ele": "compra", "Nós": "compramos", "Vós": "comprais", "Eles": "compram" },
+      "passe": { "Eu": "comprei", "Tu": "compreste", "Ele": "comprou", "Nós": "comprámos", "Vós": "comprestes", "Eles": "compraram" }
+    }
+  },
+  "trabalhar": {
+    "infinitif": "Trabalhar",
+    "group": "AR",
+    "context": "no escritório",
+    "conjugaisons": {
+      "present": { "Eu": "trabalho", "Tu": "trabalhas", "Ele": "trabalha", "Nós": "trabalhamos", "Vós": "trabalhais", "Eles": "trabalham" },
+      "passe": { "Eu": "trabalhei", "Tu": "trabalhaste", "Ele": "trabalhou", "Nós": "trabalhámos", "Vós": "trabalhastes", "Eles": "trabalharam" }
+    }
+  },
+  "comer": {
+    "infinitif": "Comer",
+    "group": "ER",
+    "context": "uma maçã",
+    "conjugaisons": {
+      "present": { "Eu": "como", "Tu": "comes", "Ele": "come", "Nós": "comemos", "Vós": "comeis", "Eles": "comem" },
+      "passe": { "Eu": "comi", "Tu": "comeste", "Ele": "comeu", "Nós": "comemos", "Vós": "comestes", "Eles": "comeram" }
+    }
+  },
+  "beber": {
+    "infinitif": "Beber",
+    "group": "ER",
+    "context": "um copo de água",
+    "conjugaisons": {
+      "present": { "Eu": "bebo", "Tu": "bebes", "Ele": "bebe", "Nós": "bebemos", "Vós": "bebeis", "Eles": "bebem" },
+      "passe": { "Eu": "bebi", "Tu": "bebeste", "Ele": "bebeu", "Nós": "bebermos", "Vós": "bebestes", "Eles": "beberam" }
+    }
+  },
+  "aprender": {
+    "infinitif": "Aprender",
+    "group": "ER",
+    "context": "português",
+    "conjugaisons": {
+      "present": { "Eu": "aprendo", "Tu": "aprendes", "Ele": "aprende", "Nós": "aprendemos", "Vós": "aprendeis", "Eles": "aprendem" },
+      "passe": { "Eu": "aprendi", "Tu": "aprendeste", "Ele": "aprendeu", "Nós": "aprendemos", "Vós": "aprendestes", "Eles": "aprenderam" }
+    }
+  },
+  "abrir": {
+    "infinitif": "Abrir",
+    "group": "IR",
+    "context": "a porta",
+    "conjugaisons": {
+      "present": { "Eu": "abro", "Tu": "abres", "Ele": "abre", "Nós": "abrimos", "Vós": "abris", "Eles": "abrem" },
+      "passe": { "Eu": "abri", "Tu": "abriste", "Ele": "abriu", "Nós": "abrimos", "Vós": "abristes", "Eles": "abriram" }
+    }
+  },
+  "partir": {
+    "infinitif": "Partir",
+    "group": "IR",
+    "context": "amanhã",
+    "conjugaisons": {
+      "present": { "Eu": "parto", "Tu": "partes", "Ele": "parte", "Nós": "partimos", "Vós": "partis", "Eles": "partem" },
+      "passe": { "Eu": "parti", "Tu": "partiste", "Ele": "partiu", "Nós": "partimos", "Vós": "partistes", "Eles": "partiram" }
+    }
+  },
+  "decidir": {
+    "infinitif": "Decidir",
+    "group": "IR",
+    "context": "agora",
+    "conjugaisons": {
+      "present": { "Eu": "decido", "Tu": "decides", "Ele": "decide", "Nós": "decidimos", "Vós": "decidis", "Eles": "decidem" },
+      "passe": { "Eu": "decidi", "Tu": "decidiste", "Ele": "decidiu", "Nós": "decidimos", "Vós": "decidistes", "Eles": "decidiram" }
+    }
+  },
+  "ser": {
+    "infinitif": "Ser",
+    "group": "IRREGULAR",
+    "context": "um bom aluno",
+    "conjugaisons": {
+      "present": { "Eu": "sou", "Tu": "és", "Ele": "é", "Nós": "somos", "Vós": "sois", "Eles": "são" },
+      "passe": { "Eu": "fui", "Tu": "foste", "Ele": "foi", "Nós": "fomos", "Vós": "fostes", "Eles": "foram" }
+    }
+  },
+  "estar": {
+    "infinitif": "Estar",
+    "group": "IRREGULAR",
+    "context": "em casa",
+    "conjugaisons": {
+      "present": { "Eu": "estou", "Tu": "estás", "Ele": "está", "Nós": "estamos", "Vós": "estais", "Eles": "estão" },
+      "passe": { "Eu": "estive", "Tu": "estiveste", "Ele": "esteve", "Nós": "estivemos", "Vós": "estivestes", "Eles": "estiveram" }
+    }
+  },
+  "ter": {
+    "infinitif": "Ter",
+    "group": "IRREGULAR",
+    "context": "muito trabalho",
+    "conjugaisons": {
+      "present": { "Eu": "tenho", "Tu": "tens", "Ele": "tem", "Nós": "temos", "Vós": "tendes", "Eles": "têm" },
+      "passe": { "Eu": "tive", "Tu": "tiveste", "Ele": "teve", "Nós": "tivemos", "Vós": "tivestes", "Eles": "tiveram" }
+    }
+  },
+  "ir": {
+    "infinitif": "Ir",
+    "group": "IRREGULAR",
+    "context": "ao cinema",
+    "conjugaisons": {
+      "present": { "Eu": "vou", "Tu": "vais", "Ele": "vai", "Nós": "vamos", "Vós": "ides", "Eles": "vão" },
+      "passe": { "Eu": "fui", "Tu": "foste", "Ele": "foi", "Nós": "fomos", "Vós": "fostes", "Eles": "foram" }
+    }
+  }
+}

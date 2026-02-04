@@ -9,21 +9,23 @@ export interface VocabItem {
   translation: string;
 }
 
+export interface Exercise {
+  id: string;
+  title: string;
+  category: string;
+  type?: 'qcm' | 'input';
+  options: string[];
+  correctAnswer: string;
+}
+
 export interface Lesson {
   id: string;
   title: string;
-  category: string; // "AR", "ER", "IR", "VOCAB", etc.
+  category: string;
   theory: {
     description: string;
-    rules?: Rule[];        // Optionnel
-    vocabulary?: VocabItem[]; // Optionnel
+    rules?: Rule[];
+    vocabulary?: VocabItem[];
   };
-  exercices: {
-    id: string;
-    title: string;
-    category: string;
-    type?: 'qcm' | 'input';
-    options: string[];
-    correctAnswer: string;
-  }[];
+  exercices: Exercise[];
 }

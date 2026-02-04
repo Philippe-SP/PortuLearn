@@ -44,15 +44,29 @@ const LessonView: React.FC<LessonViewProps> = ({ data }) => {
     }
   }, [currentIndex, shuffledExercises]);
 
+  // Fonction utilitaire pour enlever les accents
+  const normalizeText = (text: string) => {
+    return text
+      .toLowerCase()
+      .normalize("NFD") // Sépare les accents des lettres
+      .replace(/[\u0300-\u036f]/g, "") // Supprime les accents
+      .trim();
+  };
+
   const handleAnswer = (option: string) => {
-    const userAnswer = option.trim().toLowerCase();
-    const correctAnswer = currentExercice.correctAnswer.trim().toLowerCase();
+    // Comparaison des versions normalisées
+    const userAnswer = normalizeText(option);
+    const correctAnswer = normalizeText(currentExercice.correctAnswer);
 
     if (userAnswer === correctAnswer) {
       setFeedback('correct');
-      // Si c'est une phrase à trou, on remplace le ___ par la réponse pour la lecture
-      const fullSentence = currentExercice.title.replace("___", currentExercice.correctAnswer);
-      speakPortuguese(fullSentence);
+      
+      // Pour la voix, on garde l'original pour la prononciation !
+      const textToSpeak = currentExercice.title
+        .replace(/\s*\(.*?\)\s*/g, ' ')
+        .replace(/___+/g, currentExercice.correctAnswer);
+      
+      speakPortuguese(textToSpeak);
     } else {
       setFeedback('wrong');
       setErrors(prev => prev + 1);
