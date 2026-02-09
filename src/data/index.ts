@@ -16,6 +16,10 @@ import city from './city.json';
 import clothes from './clothes.json';
 import transport from './transport.json';
 import adjectif from './adjectif.json';
+import kitchen from './kitchen.json';
+import liaison from './liaison.json';
+import interogation from './interogation.json';
+import preposition from './preposition.json';
 
 import type { Lesson } from '../types';
 
@@ -41,4 +45,8 @@ export const vocabularyLessons: LessonEntry[] = [
   { data: clothes as Lesson, desc: "Les vêtements" },
   { data: transport as Lesson, desc: "Les moyens de transport" },
   { data: adjectif as Lesson, desc: "Les adjectifs communs" },
+  { data: kitchen as Lesson, desc: "Les essentiels de la cuisine" },
+  { data: liaison as Lesson, desc: "Les connecteurs logiques" },
+  { data: interogation as Lesson, desc: "Le kit de l'interrogation" },
+  { data: preposition as Lesson, desc: "Se situer dans l'espace" },
 ];

@@ -1,0 +1,28 @@
+{
+  "id": "vocab-connect-01",
+  "title": "Palavras de Ligação",
+  "category": "VOCAB",
+  "theory": {
+    "description": "Les petits mots pour structurer tes phrases.",
+    "vocabulary": [
+      { "word": "E", "translation": "Et" },
+      { "word": "Mas", "translation": "Mais" },
+      { "word": "Ou", "translation": "Ou" },
+      { "word": "Porque", "translation": "Parce que" },
+      { "word": "Também", "translation": "Aussi" },
+      { "word": "Então", "translation": "Alors / Donc" },
+      { "word": "Se", "translation": "Si" },
+      { "word": "Agora", "translation": "Maintenant" }
+    ]
+  },
+  "exercices": [
+    { "id": "con-01", "title": "Eu gosto de café ___ pão.", "translation": "J'aime le café ___ le pain.", "category": "Vocabulaire", "options": ["e", "mas", "ou", "porque"], "correctAnswer": "e" },
+    { "id": "con-02", "title": "Tenho fome, ___ vou comer.", "translation": "J'ai faim, ___ je vais manger.", "category": "Vocabulaire", "options": ["e", "então", "mas", "se"], "correctAnswer": "então" },
+    { "id": "con-03", "title": "Eu estudo ___ quero aprender.", "translation": "J'étudie ___ je veux apprendre.", "category": "Vocabulaire", "options": ["porque", "ou", "mas", "se"], "correctAnswer": "porque" },
+    { "id": "con-04", "title": "Queres água ___ leite ?", "translation": "Tu veux de l'eau ___ du lait ?", "category": "Vocabulaire", "options": ["e", "ou", "então", "também"], "correctAnswer": "ou" },
+    { "id": "con-05", "title": "Falo francês e ___ português.", "translation": "Je parle français et ___ portugais.", "category": "Vocabulaire", "options": ["mas", "também", "se", "ou"], "correctAnswer": "também" },
+    { "id": "con-06", "title": "Eu quero ir, ___ estou cansado.", "translation": "Je veux y aller, ___ je suis fatigué.", "category": "Vocabulaire", "options": ["e", "mas", "porque", "então"], "correctAnswer": "mas" },
+    { "id": "con-07", "title": "___ chover, eu fico em casa.", "translation": "___ il pleut, je reste à la maison.", "category": "Vocabulaire", "options": ["Se", "Mas", "Ou", "E"], "correctAnswer": "Se" },
+    { "id": "con-08", "title": "Não é amanhã, é ___.", "translation": "Ce n'est pas demain, c'est ___.", "category": "Vocabulaire", "options": ["então", "porque", "agora", "ou"], "correctAnswer": "agora" }
+  ]
+}

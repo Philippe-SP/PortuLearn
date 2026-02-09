@@ -1,0 +1,28 @@
+{
+  "id": "vocab-questions-01",
+  "title": "Fazer Perguntas",
+  "category": "VOCAB",
+  "theory": {
+    "description": "Les mots pour questionner ton interlocuteur.",
+    "vocabulary": [
+      { "word": "Quem", "translation": "Qui" },
+      { "word": "O quê", "translation": "Quoi / Que" },
+      { "word": "Onde", "translation": "Où" },
+      { "word": "Quando", "translation": "Quand" },
+      { "word": "Porquê", "translation": "Pourquoi" },
+      { "word": "Como", "translation": "Comment" },
+      { "word": "Quanto", "translation": "Combien" },
+      { "word": "Qual", "translation": "Lequel / Quel" }
+    ]
+  },
+  "exercices": [
+    { "id": "que-01", "title": "___ custa este pão ?", "translation": "___ coûte ce pain ?", "category": "Vocabulaire", "options": ["Quem", "Quanto", "Onde", "Como"], "correctAnswer": "Quanto" },
+    { "id": "que-02", "title": "___ é a estação de comboio ?", "translation": "___ est la gare ?", "category": "Vocabulaire", "options": ["Onde", "Quem", "Quanto", "Qual"], "correctAnswer": "Onde" },
+    { "id": "que-03", "title": "___ é este senhor ?", "translation": "___ est ce monsieur ?", "category": "Vocabulaire", "options": ["O quê", "Quem", "Quando", "Porquê"], "correctAnswer": "Quem" },
+    { "id": "que-04", "title": "___ vais para casa ?", "translation": "___ vas-tu à la maison ?", "category": "Vocabulaire", "options": ["O quê", "Quando", "Quanto", "Qual"], "correctAnswer": "Quando" },
+    { "id": "que-05", "title": "___ estás triste ?", "translation": "___ es-tu triste ?", "category": "Vocabulaire", "options": ["Porquê", "Como", "Quem", "Onde"], "correctAnswer": "Porquê" },
+    { "id": "que-06", "title": "___ se diz 'Merci' ?", "translation": "___ dit-on 'Merci' ?", "category": "Vocabulaire", "options": ["Como", "Quem", "Quanto", "Onde"], "correctAnswer": "Como" },
+    { "id": "que-07", "title": "___ queres comer ?", "translation": "___ veux-tu manger ?", "category": "Vocabulaire", "options": ["O quê", "Quem", "Qual", "Quando"], "correctAnswer": "O quê" },
+    { "id": "que-08", "title": "___ é o teu carro, o azul ou o verde ?", "translation": "___ est ta voiture, la bleue ou la verte ?", "category": "Vocabulaire", "options": ["Quem", "Quanto", "Qual", "Porquê"], "correctAnswer": "Qual" }
+  ]
+}

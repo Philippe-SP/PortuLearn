@@ -1,0 +1,28 @@
+{
+  "id": "vocab-prepo-01",
+  "title": "As Preposições",
+  "category": "VOCAB",
+  "theory": {
+    "description": "Pour situer les objets ou les personnes.",
+    "vocabulary": [
+      { "word": "Em cima de", "translation": "Sur / Au-dessus de" },
+      { "word": "Debaixo de", "translation": "Sous / En-dessous de" },
+      { "word": "Dentro de", "translation": "Dans / À l'intérieur de" },
+      { "word": "Fora de", "translation": "Dehors / À l'extérieur de" },
+      { "word": "À frente de", "translation": "Devant" },
+      { "word": "Atrás de", "translation": "Derrière" },
+      { "word": "Ao lado de", "translation": "À côté de" },
+      { "word": "Entre", "translation": "Entre" }
+    ]
+  },
+  "exercices": [
+    { "id": "prep-01", "title": "O gato dorme ___ da mesa.", "translation": "Le chat dort ___ de la table.", "category": "Vocabulaire", "options": ["debaixo", "dentro", "entre", "atrás"], "correctAnswer": "debaixo" },
+    { "id": "prep-02", "title": "O livro está ___ da mochila.", "translation": "Le livre est ___ le sac à dos.", "category": "Vocabulaire", "options": ["dentro", "fora", "debaixo", "em cima"], "correctAnswer": "dentro" },
+    { "id": "prep-03", "title": "O prato está ___ da mesa.", "translation": "L'assiette est ___ la table.", "category": "Vocabulaire", "options": ["atrás", "fora", "em cima", "debaixo"], "correctAnswer": "em cima" },
+    { "id": "prep-04", "title": "O carro está ___ da casa.", "translation": "La voiture est ___ de la maison.", "category": "Vocabulaire", "options": ["entre", "dentro", "à frente", "debaixo"], "correctAnswer": "à frente" },
+    { "id": "prep-05", "title": "A farmácia fica ___ do hospital.", "translation": "La pharmacie se trouve ___ de l'hôpital.", "category": "Vocabulaire", "options": ["ao lado", "em cima", "dentro", "debaixo"], "correctAnswer": "ao lado" },
+    { "id": "prep-06", "title": "O jardim está ___ da escola.", "translation": "Le jardin est ___ de l'école.", "category": "Vocabulaire", "options": ["atrás", "dentro", "entre", "em cima"], "correctAnswer": "atrás" },
+    { "id": "prep-07", "title": "Eu estou ___ dois amigos.", "translation": "Je suis ___ deux amis.", "category": "Vocabulaire", "options": ["entre", "fora", "debaixo", "em cima"], "correctAnswer": "entre" },
+    { "id": "prep-08", "title": "O cão quer ir para ___ de casa.", "translation": "Le chien veut aller ___ de la maison (dehors).", "category": "Vocabulaire", "options": ["dentro", "fora", "em cima", "entre"], "correctAnswer": "fora" }
+  ]
+}

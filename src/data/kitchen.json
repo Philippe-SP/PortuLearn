@@ -1,0 +1,30 @@
+{
+  "id": "vocab-kitchen-01",
+  "title": "Na Cozinha",
+  "category": "VOCAB",
+  "theory": {
+    "description": "Les objets et actions essentiels pour cuisiner et manger.",
+    "vocabulary": [
+      { "word": "O prato", "translation": "L'assiette" },
+      { "word": "O copo", "translation": "Le verre" },
+      { "word": "A faca", "translation": "Le couteau" },
+      { "word": "O garfo", "translation": "La fourchette" },
+      { "word": "A colher", "translation": "La cuillère" },
+      { "word": "A panela", "translation": "La casserole" },
+      { "word": "O frigorífico", "translation": "Le frigo" },
+      { "word": "O fogão", "translation": "La cuisinière" },
+      { "word": "Cozinhar", "translation": "Cuisiner" },
+      { "word": "Lavar", "translation": "Laver" }
+    ]
+  },
+  "exercices": [
+    { "id": "kit-01", "title": "Eu bebo água num ___.", "translation": "Je bois de l'eau dans un ___.", "category": "Vocabulaire", "options": ["prato", "copo", "garfo", "fogão"], "correctAnswer": "copo" },
+    { "id": "kit-02", "title": "Para cortar a carne, eu uso a ___.", "translation": "Pour couper la viande, j'utilise le ___.", "category": "Vocabulaire", "options": ["faca", "colher", "panela", "frigorífico"], "correctAnswer": "faca" },
+    { "id": "kit-03", "title": "A comida fria está no ___.", "translation": "La nourriture froide est dans le ___.", "category": "Vocabulaire", "options": ["fogão", "frigorífico", "prato", "garfo"], "correctAnswer": "frigorífico" },
+    { "id": "kit-04", "title": "Como se diz 'La casserole' ?", "translation": "La casserole : ___", "category": "Vocabulaire", "options": ["A panela", "O prato", "O copo", "A colher"], "correctAnswer": "A panela" },
+    { "id": "kit-05", "title": "Eu como a sopa com uma ___.", "translation": "Je mange la soupe avec une ___.", "category": "Vocabulaire", "options": ["faca", "garfo", "colher", "panela"], "correctAnswer": "colher" },
+    { "id": "kit-06", "title": "Depois de comer, eu vou ___ os pratos.", "translation": "Après avoir mangé, je vais ___ les assiettes.", "category": "Vocabulaire", "options": ["cozinhar", "lavar", "beber", "comprar"], "correctAnswer": "lavar" },
+    { "id": "kit-07", "title": "Onde está o ___ para comer o bife?", "translation": "Où est la ___ pour manger le steak ?", "category": "Vocabulaire", "options": ["garfo", "panela", "frigorífico", "copo"], "correctAnswer": "garfo" },
+    { "id": "kit-08", "title": "Eu ligo o ___ para fazer o jantar.", "translation": "J'allume la ___ pour faire le dîner.", "category": "Vocabulaire", "options": ["fogão", "prato", "copo", "colher"], "correctAnswer": "fogão" }
+  ]
+}
