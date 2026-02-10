@@ -1,0 +1,66 @@
+{
+  "id": "train-phon-01",
+  "title": "Sons e Pronúncia",
+  "category": "PRONÚNCIA",
+  "theory": {
+    "description": "Les secrets de l'accent portugais : le 'S' qui chuinte, le 'R' qui roule ou qui racle.",
+    "vocabulary": [
+      { "word": "S (final)", "translation": "Se prononce 'sh' (ex: Português)" },
+      { "word": "R (simple)", "translation": "Roulé avec la langue (ex: Obrigado)" },
+      { "word": "RR (double)", "translation": "Raclét au fond de la gorge (ex: Carro)" },
+      { "word": "S (entre voyelles)", "translation": "Se prononce 'z' (ex: Casa)" },
+      { "word": "NH", "translation": "Se prononce comme 'gn' (ex: Amanhã)" },
+      { "word": "LH", "translation": "Se prononce comme 'li' (ex: Trabalho)" }
+    ]
+  },
+  "exercices": [
+    {
+      "id": "phon-01",
+      "title": "Comment prononce-t-on le 'S' à la fin de 'Boas' ?",
+      "translation": "Comment prononce-t-on le 'S' à la fin de 'Boas' ?",
+      "category": "Prononciation",
+      "options": ["Comme un S (serpent)", "Comme un SH (chat)", "Comme un Z", "Il est muet"],
+      "correctAnswer": "Comme un SH (chat)"
+    },
+    {
+      "id": "phon-02",
+      "title": "Dans le mot 'Carro' (voiture), le 'RR' se prononce :",
+      "translation": "Dans le mot 'Carro', le 'RR' se prononce :",
+      "category": "Prononciation",
+      "options": ["Roulé (langue)", "Raclét (fond de la gorge)", "Comme un L", "Il est muet"],
+      "correctAnswer": "Raclét (fond de la gorge)"
+    },
+    {
+      "id": "phon-03",
+      "title": "Le son 'NH' dans 'Amanhã' ressemble au français :",
+      "translation": "Le son 'NH' ressemble au français :",
+      "category": "Prononciation",
+      "options": ["gn (montagne)", "nh (en haut)", "n (non)", "m (maman)"],
+      "correctAnswer": "gn (montagne)"
+    },
+    {
+      "id": "phon-04",
+      "title": "Dans 'Casa', le 'S' se prononce :",
+      "translation": "Dans 'Casa', le 'S' se prononce :",
+      "category": "Prononciation",
+      "options": ["ss", "z", "sh", "j"],
+      "correctAnswer": "z"
+    },
+    {
+      "id": "phon-05",
+      "title": "Comment prononce-t-on le 'S' dans 'Lisboa' ?",
+      "translation": "Comment prononce-t-on le 'S' dans 'Lisboa' ?",
+      "category": "Prononciation",
+      "options": ["ss", "z", "sh", "j"],
+      "correctAnswer": "sh"
+    },
+    {
+      "id": "phon-06",
+      "title": "Le son 'LH' dans 'Filho' (fils) se prononce :",
+      "translation": "Le son 'LH' dans 'Filho' se prononce :",
+      "category": "Prononciation",
+      "options": ["L", "LI", "LH (français)", "CH"],
+      "correctAnswer": "LI"
+    }
+  ]
+}

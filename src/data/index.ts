@@ -1,5 +1,6 @@
 /******* Liste des lecons vocabulaire (statiques) *******/
 
+// Lecons vocabulaire
 import colors from './colors.json';
 import animals1 from './animals-1.json';
 import animals2 from './animals-2.json';
@@ -21,6 +22,10 @@ import liaison from './liaison.json';
 import interogation from './interogation.json';
 import preposition from './preposition.json';
 
+// Lecons entrainement
+import phonetic from './phonetic.json';
+import situation from './situation.json';
+
 import type { Lesson } from '../types';
 
 export interface LessonEntry {
@@ -29,6 +34,7 @@ export interface LessonEntry {
 }
 
 export const vocabularyLessons: LessonEntry[] = [
+  // VOCABULAIRE
   { data: colors as Lesson, desc: "Les couleurs" },
   { data: animals1 as Lesson, desc: "Les animaux: Niveau 1" },
   { data: animals2 as Lesson, desc: "Les animaux: Niveau 2" },
@@ -49,4 +55,8 @@ export const vocabularyLessons: LessonEntry[] = [
   { data: liaison as Lesson, desc: "Les connecteurs logiques" },
   { data: interogation as Lesson, desc: "Le kit de l'interrogation" },
   { data: preposition as Lesson, desc: "Se situer dans l'espace" },
+
+  // ENTRAINEMENT
+  { data: phonetic as Lesson, desc: "Les subtilités de la prononciation" },
+  { data: situation as Lesson, desc: "Exercice de situations réelles" },
 ];

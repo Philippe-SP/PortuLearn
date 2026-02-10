@@ -13,7 +13,7 @@ export interface Exercise {
   id: string;
   title: string;
   translation?: string;
-  category: string;
+  category?: string;
   type?: 'qcm' | 'input';
   options: string[];
   correctAnswer: string;
