@@ -70,11 +70,20 @@ const LessonView: React.FC<LessonViewProps> = ({ data }) => {
 
     if (userAnswer === correctAnswer) {
       setFeedback('correct');
-      const textToSpeak = currentExercice.title
-        .replace(/\s*\(.*?\)\s*/g, ' ')
-        .replace(/___+/g, currentExercice.correctAnswer);
       
-      speakPortuguese(textToSpeak);
+      // LOGIQUE DE VOIX INTELLIGENTE
+      if (data.category === 'SITUAÇÃO') {
+        // Pour les situations, on ne veut SURTOUT PAS lire la consigne "Tu es au resto..."
+        // On lit uniquement la bonne réponse portugaise.
+        speakPortuguese(currentExercice.correctAnswer);
+      } else {
+        // Pour la conjugaison et le vocabulaire, on garde ta logique de lecture de phrase complète
+        const textToSpeak = currentExercice.title
+          .replace(/\s*\(.*?\)\s*/g, ' ')
+          .replace(/___+/g, currentExercice.correctAnswer);
+        
+        speakPortuguese(textToSpeak);
+      }
     } else {
       setFeedback('wrong');
       setErrors(prev => prev + 1);
