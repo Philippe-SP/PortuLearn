@@ -59,8 +59,10 @@ const LessonView: React.FC<LessonViewProps> = ({ data }) => {
   const normalizeText = (text: string) => {
     return text
       .toLowerCase()
-      .normalize("NFD")
-      .replace(/[\u0300-\u036f]/g, "")
+      .normalize("NFD") // Sépare les accents
+      .replace(/[\u0300-\u036f]/g, "") // Supprime les accents
+      .replace(/['’‘]/g, "") // Supprime les apostrophes
+      .replace(/\s+/g, " ") // Normalise les espaces multiples
       .trim();
   };
 
