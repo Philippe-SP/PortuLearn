@@ -42,7 +42,7 @@
       "translation": "2 vaches : ___",
       "category": "Vocabulaire",
       "options": ["Dois vacas", "Duas vacas", "Dez vacas", "Três vacas"],
-      "correctAnswer": "Duas vaches"
+      "correctAnswer": "Duas vacas"
     },
     {
       "id": "num-03",
